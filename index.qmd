@@ -1,7 +1,17 @@
 ---
 title: "David Byrne"
+
+image: cv_image.jpg
+about:
+  template: jolla
+  links: # create buttons
+    - icon: linkedin 
+      text: LinkedIn
+      href: https://www.linkedin.com/in/davidbyrnedcu
 ---
 
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+---
