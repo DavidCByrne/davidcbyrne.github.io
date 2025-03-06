@@ -4,22 +4,26 @@ project:
 
 website:
   title: "David Byrne"
-  favicon: Dublin City University_transparent-.png
+  favicon: DB_transparent-.png
   navbar:
     title: false
-    logo: Dublin City University_transparent-.png
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - hello-world.qmd
+    logo: DB_transparent-.png
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Quarto Test"
+        href: hello-world.qmd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/davidbyrnedcu
        
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true
 

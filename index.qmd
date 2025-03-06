@@ -1,17 +1,28 @@
 ---
-title: "David Byrne"
+title: "Welcome to My ePortfolio"
 
 image: cv_image.jpg
 about:
   template: jolla
-  links: # create buttons
-    - icon: linkedin 
-      text: LinkedIn
-      href: https://www.linkedin.com/in/davidbyrnedcu
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
 ---
 
-This is a Quarto website.
+<div class="hero">
+  <p>This portfolio showcases my work over the last year of college, along with other aspects of my academic and professional journey.</p>
+</div>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## 📂 Projects & Work
 
----
+Here are some highlights of my work and interests:
+
+
+
+
+
+
