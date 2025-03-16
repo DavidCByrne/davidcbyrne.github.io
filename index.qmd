@@ -6,7 +6,7 @@ about:
   template: jolla
 format:
   html:
-    theme:
+    theme: sandstone
       light: flatly
       dark: darkly
     css: styles.css
