@@ -7,7 +7,7 @@ about:
 format:
   html:
     theme: lux
-    css: styles.css
+    css: styles.scss
     toc: false
 ---
 
