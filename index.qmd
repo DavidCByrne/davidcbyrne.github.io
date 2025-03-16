@@ -6,9 +6,7 @@ about:
   template: jolla
 format:
   html:
-    theme: sandstone
-      light: flatly
-      dark: darkly
+    theme: lux
     css: styles.css
     toc: false
 ---
