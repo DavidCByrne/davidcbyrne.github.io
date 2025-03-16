@@ -11,7 +11,7 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "About"
+      - text: "About Me"
         href: about.qmd
       - text: "Quarto Test"
         href: hello-world.qmd

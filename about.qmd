@@ -1,5 +1,17 @@
 ---
-title: "About"
+title: "David Byrne"
+
+image: cv_image.jpg
+about:
+  template: jolla
+format:
+  html:
+    theme: lux
+    css: styles.scss
+    toc: false
+
 ---
 
-About this site
+<div class="hero">
+  <p>Final Year Business Studies Student in DCU (Analytics Specialism), expected to graduate with first-class honours.  I have a strong academic record, achieving 613 points in the Leaving Certificate and a 1.1 grade across the first and second years of the Business Studies curriculum. Gained invaluable experience in the Finance industry through a year-long internship with KKR & Co Inc. Complemented by certifications in SQL, Python, and financial modeling, I am poised to contribute effectively to an analytical role upon graduation in May 2025.</p>
+</div>
