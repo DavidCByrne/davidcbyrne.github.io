@@ -12,8 +12,9 @@ website:
       - text: "About Me"
         icon: person
         href: about.qmd
-      - text: "Quarto Test"
-        href: hello-world.qmd
+      - text: "Projects"
+        icon: collection
+        href: projects.qmd
       - text: "CV"
         icon: file-earmark-person
         href: cv.pdf
