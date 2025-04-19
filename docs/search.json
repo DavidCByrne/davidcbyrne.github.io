@@ -32,6 +32,20 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "print(\"hello world\")\n\nhello world\n\n\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "projects/business_strat.html",
+    "href": "projects/business_strat.html",
+    "title": "Business Strategy",
+    "section": "",
+    "text": "Report"
   }
 ]

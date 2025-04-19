@@ -10,5 +10,11 @@
   },
   "projects.qmd": {
     "projects.html": "af6a5e45"
+  },
+  "projects/projects.qmd": {
+    "projects.html": "ea5eb3ed"
+  },
+  "projects/business_strat.qmd": {
+    "business_strat.html": "d18ada8e"
   }
 }

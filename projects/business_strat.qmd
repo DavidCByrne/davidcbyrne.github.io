@@ -1,0 +1,11 @@
+---
+title: "Business Strategy"
+subtitle: "BAA1019"
+image: "/projects/images/kerrygold.png"
+page-layout: full
+theme:
+  light: lux
+---
+
+# Report
+<iframe width="100%" height="1000" src=pdfs/BS14.pdf> </iframe>
