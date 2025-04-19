@@ -1,23 +1,33 @@
 ---
-title: "Welcome to My ePortfolio"
-
+title: "David Byrne"
+subtitle: "Business Analytics Student, DCU"
 image: images/cv_image.jpg
+
+
+#Code adapted from Damien Dupré's website
 about:
-  template: jolla
-format:
-  html:
-    theme: lux
-    css: styles.scss
-    toc: false
+  template: solana
+  image-width: 28em
+  id: hero-heading
+  links:
+    - icon: github
+      href: https://github.com/davidcbyrne
+    - icon: linkedin
+      href: https://www.linkedin.com/in/your‑linkedin‑username
+    - icon: envelope
+      href: mailto:david.byrne227@mail.dcu.ie
+
+page-layout: full
 ---
 
-<div class="hero">
-  <p>This portfolio showcases my work over the last year of college, along with other aspects of my academic and professional journey.</p>
-</div>
+::: {#hero-heading}
+Welcome to my ePortfolio! 👋 <br><br>Here you'll find a curated showcase of my projects and work over the last 4 years, This space highlights my skills, interests, and the journey I've taken. Feel free to explore, connect with me on LinkedIn, or reach out to me!
 
-## 📂 Projects & Work
 
-Here are some highlights of my work and interests:
+[Learn more about me →](about.qmd)
+
+:::
+
 
 
 
