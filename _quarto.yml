@@ -22,11 +22,14 @@ website:
         href: https://www.linkedin.com/in/davidbyrnedcu
        
 
+
 format:
   html:
-    theme: lux
+    theme: 
+      light: flatly
+      dark: slate
     css: styles.scss
-    toc: true
+         
 
 
 

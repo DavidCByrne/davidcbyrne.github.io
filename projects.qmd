@@ -7,4 +7,7 @@ listing:
   type: grid
   fields: [title, image]
   grid-columns: 2
+  image-height: 33vmin
+page-layout: full
+title-block-banner: false
 ---
