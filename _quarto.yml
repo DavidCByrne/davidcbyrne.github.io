@@ -9,12 +9,14 @@ website:
     title: false
     logo: images/DB_transparent-.png
     right:
-      - text: "Home"
-        href: index.qmd
       - text: "About Me"
+        icon: person
         href: about.qmd
       - text: "Quarto Test"
         href: hello-world.qmd
+      - text: "CV"
+        icon: file-earmark-person
+        href: cv.pdf
       - icon: linkedin
         href: https://www.linkedin.com/in/davidbyrnedcu
        
