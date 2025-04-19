@@ -1,10 +1,9 @@
 ---
 title: "Business Strategy"
 subtitle: "BAA1019"
+#Photo from AllRecipes https://www.allrecipes.com/article/what-is-irish-butter/
 image: "/projects/images/kerrygold.png"
 page-layout: full
-theme:
-  light: lux
 ---
 
 # Report

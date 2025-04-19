@@ -1,0 +1,11 @@
+---
+title: "Machine Learning & Advanced Python"
+subtitle: "BAA1019"
+#Photo from NIT Academy https://academy.nit-institute.com/course advanced-python-programming/
+image: "/projects/images/python.jpg"
+page-layout: full
+
+---
+
+# Report
+<iframe width="100%" height="1000" src=pdfs/adv_python.pdf> </iframe>

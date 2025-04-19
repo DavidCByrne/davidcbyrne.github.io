@@ -6,7 +6,6 @@ about:
   template: jolla
 format:
   html:
-    theme: lux
     css: styles.scss
     toc: false
 
