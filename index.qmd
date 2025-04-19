@@ -1,7 +1,7 @@
 ---
 title: "Welcome to My ePortfolio"
 
-image: cv_image.jpg
+image: images/cv_image.jpg
 about:
   template: jolla
 format:

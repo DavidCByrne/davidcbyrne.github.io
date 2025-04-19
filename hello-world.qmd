@@ -5,11 +5,11 @@ title: "Quarto Test"
 ---
 ---
 
-```{python}
+```{python, echo=false}
 print("hello world")
 ```
 
-```{python}
+```{python, echo=false}
 import numpy as np
 import matplotlib.pyplot as plt
 

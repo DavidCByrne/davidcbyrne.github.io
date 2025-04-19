@@ -1,8 +1,8 @@
 {
-  "hash": "5171330aacb9fcd9c4c214f67460d4cd",
+  "hash": "47454ff4cc57c32a60295bc11285cd4e",
   "result": {
     "engine": "jupyter",
-    "markdown": "---\ntitle: \"Quarto Test\"\n---\n\n---\n\n---\n\n::: {#6037223f .cell execution_count=1}\n``` {.python .cell-code}\nprint(\"hello world\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nhello world\n```\n:::\n:::\n\n\n::: {#43f0e900 .cell execution_count=2}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](hello-world_files/figure-html/cell-3-output-1.png){width=450 height=439}\n:::\n:::\n\n\n",
+    "markdown": "---\ntitle: \"Quarto Test\"\n---\n\n---\n\n---\n\n::: {#8090aa61 .cell execution_count=1}\n``` {.python .cell-code}\nprint(\"hello world\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nhello world\n```\n:::\n:::\n\n\n::: {#6886181b .cell execution_count=2}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](hello-world_files/figure-html/cell-3-output-1.png){width=450 height=439}\n:::\n:::\n\n\n",
     "supporting": [
       "hello-world_files"
     ],
