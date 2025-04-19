@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 description: |
+  
   Here are some of the projects I have worked on throughout my academic career.
 listing: 
   contents: projects/*

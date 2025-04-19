@@ -1,28 +1,28 @@
-// styles.scss
-
-
+/* 0) Make *all* text Montserrat */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
+html, body, h1, h2, h3, h4, h5, h6,
+p, li, blockquote, a, .nav-link, .dropdown-item {
+  font-family: 'Montserrat', sans-serif !important;
+}
 
-body, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-  }
-  
+/* 1) Darken nav links so they’re visible on white */
+.navbar, .navbar-toggler {
+  background-color: #fff !important;
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #333 !important;       
+}
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: var(--bs-primary) !important;   
+}
 
-  :root {
-    --bs-primary: #167e99;
-    --bs-body-color: #333;
-  }
-  
-
-  .site-hero .site-title {
-    font-weight: 300;
-    margin-bottom: .5rem;
-  }
-  
- 
-  .listing .card {
-    border-radius: .5rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  }
-  
+/* 2) Tweak the search icon, toggle, etc. */
+.navbar .icon-link {
+  color: #333 !important;
+}
+.navbar .icon-link:hover {
+  color: var(--bs-primary) !important;
+}
