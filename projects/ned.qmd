@@ -5,7 +5,23 @@ image: "/projects/images/ned.png"
 page-layout: full
 ---
 
+## My Experience
 
+<figure style="float: right; width: 35%; margin: 0 0 1em 1em;">
+  <img src="images/nedpic.jpeg" alt="Team photo" style="width:100%; height:auto;"/>
+</figure>
+
+Our product, Revive Grounds, is a sustainable skin scrub made using repurposed coffee grounds, and this module gave us the perfect framework to bring it to life. It has been one of the most engaging and practical experiences of my degree so far, offering a strong balance between theory and real-world application. From identifying a clear market opportunity to building investor-ready financials, the process challenged us to think creatively while remaining commercially focused. The Dragons’ Den pitch was a standout moment, helping us refine our communication and present with confidence to experienced professionals. I also gained a better appreciation for teamwork as we worked closely to develop our brand from the ground up. Overall, the module gave me a much deeper understanding of entrepreneurship and sustainability in business, and helped boost both my practical skills and personal confidence along the way.
+
+<div style="clear: both;"></div>
 
 # Marketing Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FSC_wcsHxuY?si=DCndLkZiLqfelfnS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe
+  width="560" height="315"
+  src="https://www.youtube.com/embed/FSC_wcsHxuY?si=DCndLkZiLqfelfnS"
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
