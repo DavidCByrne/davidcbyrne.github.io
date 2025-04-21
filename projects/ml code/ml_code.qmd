@@ -29,7 +29,8 @@ from tabulate import tabulate
 # ---------------------------------------
 # 1. Load Dataset
 # ---------------------------------------
-data = pd.read_csv('creditcard.csv')
+file = '/Users/davidbyrne/Documents/ML Research Paper/creditcard.csv'
+data = pd.read_csv(file)
 ```
 ```{python}
 # ---------------------------------------
