@@ -4,8 +4,10 @@ subtitle: "BAA1019"
 #Photo from NIT Academy https://academy.nit-institute.com/course advanced-python-programming/
 image: "/projects/images/python.jpg"
 page-layout: full
-
 ---
+
+# Code
+[► See full ML algorithm code & outputs](ml code/ml_code.qmd)
 
 # Report
 <iframe width="100%" height="1000" src=pdfs/adv_python.pdf> </iframe>

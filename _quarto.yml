@@ -21,8 +21,6 @@ website:
         href: cv.pdf
       - icon: linkedin
         href: https://www.linkedin.com/in/davidbyrnedcu
-       
-
 
 format:
   html:
@@ -30,9 +28,3 @@ format:
       light: litera
       dark: darkly
     css: styles.scss
-         
-
-
-
-
-
