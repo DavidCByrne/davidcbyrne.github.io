@@ -1,5 +1,13 @@
 /*-- scss:defaults --*/
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+
+// Montserrat font for text
+html, body, h1, h2, h3, h4, h5, h6,
+p, li, blockquote, a, .nav-link, .dropdown-item {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
 // Colors
 $dark-green: #858E79;
 $light-green: #D1D9CE;
