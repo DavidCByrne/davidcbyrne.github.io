@@ -49,6 +49,41 @@
     "text": "Welcome to my ePortfolio! 👋\nHere you’ll find a curated showcase of my projects and work over the last 4 years. This space highlights my skills, interests, and the journey I’ve taken. Feel free to explore, connect with me on LinkedIn, or reach out to me!\nLearn more about me →"
   },
   {
+    "objectID": "projects/SQL/SQL_exam.html",
+    "href": "projects/SQL/SQL_exam.html",
+    "title": "SQL Exam Code",
+    "section": "",
+    "text": "-- Remove any old tables\nDROP TABLE IF EXISTS Orders;\nDROP TABLE IF EXISTS Products;\nDROP TABLE IF EXISTS Customers;\n\n-- Create a new database and switch into it\nCREATE DATABASE TechCie;\nUSE TechCie;"
+  },
+  {
+    "objectID": "projects/SQL/SQL_exam.html#setup-database-creation",
+    "href": "projects/SQL/SQL_exam.html#setup-database-creation",
+    "title": "SQL Exam Code",
+    "section": "",
+    "text": "-- Remove any old tables\nDROP TABLE IF EXISTS Orders;\nDROP TABLE IF EXISTS Products;\nDROP TABLE IF EXISTS Customers;\n\n-- Create a new database and switch into it\nCREATE DATABASE TechCie;\nUSE TechCie;"
+  },
+  {
+    "objectID": "projects/SQL/SQL_exam.html#table-definitions",
+    "href": "projects/SQL/SQL_exam.html#table-definitions",
+    "title": "SQL Exam Code",
+    "section": "2. Table Definitions",
+    "text": "2. Table Definitions\n-- Customers table\nCREATE TABLE Customers (\n  Customer_ID   INT PRIMARY KEY,\n  Customer_Name VARCHAR(20),\n  Email         VARCHAR(30)\n);\n\n-- Products table\nCREATE TABLE Products (\n  Product_ID   INT PRIMARY KEY,\n  Product_Name VARCHAR(20),\n  Price        FLOAT\n);\n\n-- Orders table, with foreign keys\nCREATE TABLE Orders (\n  Order_ID     INT PRIMARY KEY,\n  Customer_ID  INT,\n  Product_ID   INT,\n  Quantity     INT,\n  Order_Date   DATE,\n  FOREIGN KEY (Customer_ID) REFERENCES Customers(Customer_ID),\n  FOREIGN KEY (Product_ID)  REFERENCES Products(Product_ID)\n);"
+  },
+  {
+    "objectID": "projects/SQL/SQL_exam.html#insert-sample-data",
+    "href": "projects/SQL/SQL_exam.html#insert-sample-data",
+    "title": "SQL Exam Code",
+    "section": "3. Insert Sample Data",
+    "text": "3. Insert Sample Data\n-- Populate Customers\nINSERT INTO Customers (Customer_ID, Customer_Name, Email)\nVALUES\n  (1, 'Alice Smith', 'alice@dcu.com'),\n  (2, 'Bob Johnson', 'bob@dcu.com'),\n  (3, 'Carol Davis', 'carol@ucd.com'),\n  (4, 'David Brown', 'david@tcd.com');\n\n-- Populate Products\nINSERT INTO Products (Product_ID, Product_Name, Price)\nVALUES\n  (101, 'Laptop',    1200),\n  (102, 'Smartphone', 800.5),\n  (103, 'Tablet',     400),\n  (104, 'Monitor',    250),\n  (105, 'Keyboard',    50.5);\n\n-- Populate Orders\nINSERT INTO Orders (Order_ID, Customer_ID, Product_ID, Quantity, Order_Date)\nVALUES\n  (1, 1, 101, 1, '2024-01-15'),\n  (2, 1, 105, 2, '2024-01-16'),\n  (3, 2, 102, 1, '2024-01-15'),\n  (4, 3, 103, 1, '2024-03-05'),\n  (5, 4, 104, 1, '2024-04-15'),\n  (6, 3, 105, 3, '2024-03-15');"
+  },
+  {
+    "objectID": "projects/SQL/SQL_exam.html#explore-the-data",
+    "href": "projects/SQL/SQL_exam.html#explore-the-data",
+    "title": "SQL Exam Code",
+    "section": "4. Explore the Data",
+    "text": "4. Explore the Data\n\n4.2 Retrieve product names\nSELECT Product_Name\nFROM Products;\n\n\n4.3 Add new customer\nINSERT INTO Customers (Customer_ID, Customer_Name, Email)\nVALUES (5, 'Ewan Curren', 'ewan@dcu.com');\n\n\n4.4 Update customer email\nUPDATE Customers\nSET Email = 'david@dcu.com'\nWHERE Customer_ID = 4;\n\n\n4.5 Average quantity ordered\nSELECT AVG(Quantity) AS avg_quantity\nFROM Orders;\n\n\n4.6 Products costing more than 300\nSELECT Product_Name\nFROM Products\nWHERE Price &gt; 300;\n\n\n4.7 Customers who ordered on 2024‑01‑15\nSELECT c.Customer_Name\nFROM Customers AS c\nJOIN Orders    AS o\n  ON c.Customer_ID = o.Customer_ID\nWHERE o.Order_Date = '2024-01-15';\n\n\n4.8 Total quantity per customer after 2024‑01‑31\nSELECT c.Customer_Name,\n       SUM(o.Quantity) AS Total_Quantity\nFROM Orders    AS o\nJOIN Customers AS c\n  ON o.Customer_ID = c.Customer_ID\nWHERE o.Order_Date &gt; '2024-01-31'\nGROUP BY c.Customer_Name;\n\n\n4.9 Total quantity per customer (include those with no orders)\nSELECT c.Customer_Name,\n       COALESCE(SUM(o.Quantity), 0) AS Total_Quantity\nFROM Customers AS c\nLEFT JOIN Orders AS o\n  ON c.Customer_ID = o.Customer_ID\nGROUP BY c.Customer_Name\nORDER BY Total_Quantity DESC;\n\n\n4.10 Remove Bob Johnson entirely\nDELETE FROM Orders\nWHERE Customer_ID = 2;\n\nDELETE FROM Customers\nWHERE Customer_ID = 2;"
+  },
+  {
     "objectID": "projects/ned.html",
     "href": "projects/ned.html",
     "title": "New Enterprise Development",
@@ -84,11 +119,18 @@
     "text": "Code\n► See full ML algorithm code & outputs\n\n\nReport"
   },
   {
+    "objectID": "projects/programming&visualisation.html",
+    "href": "projects/programming&visualisation.html",
+    "title": "Programming & Visualisation",
+    "section": "",
+    "text": "SQL\n► See SQL Exam Work # Power BI\n\n\nPython"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -98,59 +140,10 @@
     "text": "Final Year Business Studies Student in DCU (Analytics Specialism), expected to graduate with first-class honours. I have a strong academic record, achieving 613 points in the Leaving Certificate and a 1.1 grade across the first and second years of the Business Studies curriculum. Gained invaluable experience in the Finance industry through a year-long internship with KKR & Co Inc. Complemented by certifications in SQL, Python, and financial modeling, I am poised to contribute effectively to an analytical role upon graduation in May 2025."
   },
   {
-    "objectID": "about.html#check-out-some-of-my-work",
-    "href": "about.html#check-out-some-of-my-work",
-    "title": "David Byrne",
-    "section": "Check out some of my work",
-    "text": "Check out some of my work\n► My projects can be seen here"
-  },
-  {
     "objectID": "about.html#core-skills",
     "href": "about.html#core-skills",
     "title": "David Byrne",
     "section": "Core Skills",
     "text": "Core Skills\n\n\n\nPython\nI’ve built data‑processing and machine‑learning pipelines in Python using pandas, scikit‑learn, XGBoost, and more—to turn raw data into predictive models and visual insights.\n→ View Python Projects\n\n\n\nSQL\nProficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.\n→ View SQL Projects\n\n\n\nPower BI\nDesigned interactive Power BI dashboards—connecting live data sources, crafting DAX measures, and focusing on user‑centred visual storytelling.\n→ View Power BI Dashboards"
-  },
-  {
-    "objectID": "projects/programming&visualisation.html",
-    "href": "projects/programming&visualisation.html",
-    "title": "Programming & Visualisation",
-    "section": "",
-    "text": "SQL\n\n\nPower BI\n\n\nPython"
-  },
-  {
-    "objectID": "projects/SQL/SQL_exam.html",
-    "href": "projects/SQL/SQL_exam.html",
-    "title": "SQL Exam Code",
-    "section": "",
-    "text": "-- Remove any old tables\nDROP TABLE IF EXISTS Orders;\nDROP TABLE IF EXISTS Products;\nDROP TABLE IF EXISTS Customers;\n\n-- Create a new database and switch into it\nCREATE DATABASE TechCie;\nUSE TechCie;"
-  },
-  {
-    "objectID": "projects/SQL/SQL_exam.html#setup-database-creation",
-    "href": "projects/SQL/SQL_exam.html#setup-database-creation",
-    "title": "SQL Exam Code",
-    "section": "",
-    "text": "-- Remove any old tables\nDROP TABLE IF EXISTS Orders;\nDROP TABLE IF EXISTS Products;\nDROP TABLE IF EXISTS Customers;\n\n-- Create a new database and switch into it\nCREATE DATABASE TechCie;\nUSE TechCie;"
-  },
-  {
-    "objectID": "projects/SQL/SQL_exam.html#table-definitions",
-    "href": "projects/SQL/SQL_exam.html#table-definitions",
-    "title": "SQL Exam Code",
-    "section": "2. Table Definitions",
-    "text": "2. Table Definitions\n-- Customers table\nCREATE TABLE Customers (\n  Customer_ID   INT PRIMARY KEY,\n  Customer_Name VARCHAR(20),\n  Email         VARCHAR(30)\n);\n\n-- Products table\nCREATE TABLE Products (\n  Product_ID   INT PRIMARY KEY,\n  Product_Name VARCHAR(20),\n  Price        FLOAT\n);\n\n-- Orders table, with foreign keys\nCREATE TABLE Orders (\n  Order_ID     INT PRIMARY KEY,\n  Customer_ID  INT,\n  Product_ID   INT,\n  Quantity     INT,\n  Order_Date   DATE,\n  FOREIGN KEY (Customer_ID) REFERENCES Customers(Customer_ID),\n  FOREIGN KEY (Product_ID)  REFERENCES Products(Product_ID)\n);"
-  },
-  {
-    "objectID": "projects/SQL/SQL_exam.html#insert-sample-data",
-    "href": "projects/SQL/SQL_exam.html#insert-sample-data",
-    "title": "SQL Exam Code",
-    "section": "3. Insert Sample Data",
-    "text": "3. Insert Sample Data\n-- Populate Customers\nINSERT INTO Customers (Customer_ID, Customer_Name, Email)\nVALUES\n  (1, 'Alice Smith', 'alice@dcu.com'),\n  (2, 'Bob Johnson', 'bob@dcu.com'),\n  (3, 'Carol Davis', 'carol@ucd.com'),\n  (4, 'David Brown', 'david@tcd.com');\n\n-- Populate Products\nINSERT INTO Products (Product_ID, Product_Name, Price)\nVALUES\n  (101, 'Laptop',    1200),\n  (102, 'Smartphone', 800.5),\n  (103, 'Tablet',     400),\n  (104, 'Monitor',    250),\n  (105, 'Keyboard',    50.5);\n\n-- Populate Orders\nINSERT INTO Orders (Order_ID, Customer_ID, Product_ID, Quantity, Order_Date)\nVALUES\n  (1, 1, 101, 1, '2024-01-15'),\n  (2, 1, 105, 2, '2024-01-16'),\n  (3, 2, 102, 1, '2024-01-15'),\n  (4, 3, 103, 1, '2024-03-05'),\n  (5, 4, 104, 1, '2024-04-15'),\n  (6, 3, 105, 3, '2024-03-15');"
-  },
-  {
-    "objectID": "projects/SQL/SQL_exam.html#explore-the-data",
-    "href": "projects/SQL/SQL_exam.html#explore-the-data",
-    "title": "SQL Exam Code",
-    "section": "4. Explore the Data",
-    "text": "4. Explore the Data\n\n3.2 Retrieve product names\nSELECT Product_Name\nFROM Products;\n\n\n3.3 Add new customer\nINSERT INTO Customers (Customer_ID, Customer_Name, Email)\nVALUES (5, 'Ewan Curren', 'ewan@dcu.com');"
   }
 ]

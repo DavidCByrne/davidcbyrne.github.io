@@ -38,7 +38,7 @@ I’ve built data‑processing and machine‑learning pipelines in Python using 
 
 Proficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.
 
-[→ View SQL Projects](projects/sql-projects.qmd){.btn .btn-primary}
+[→ View SQL Projects](projects/SQL/SQL_exam.qmd){.btn .btn-primary}
 
 :::
 

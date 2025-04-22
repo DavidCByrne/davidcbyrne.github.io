@@ -250,14 +250,67 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="explore-the-data" class="level2">
 <h2 class="anchored" data-anchor-id="explore-the-data">4. Explore the Data</h2>
 <section id="retrieve-product-names" class="level3">
-<h3 class="anchored" data-anchor-id="retrieve-product-names">3.2 Retrieve product names</h3>
+<h3 class="anchored" data-anchor-id="retrieve-product-names">4.2 Retrieve product names</h3>
 <div class="sourceCode" id="cb4"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> Product_Name</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> Products;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="add-new-customer" class="level3">
-<h3 class="anchored" data-anchor-id="add-new-customer">3.3 Add new customer</h3>
+<h3 class="anchored" data-anchor-id="add-new-customer">4.3 Add new customer</h3>
 <div class="sourceCode" id="cb5"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">INSERT</span> <span class="kw">INTO</span> Customers (Customer_ID, Customer_Name, Email)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">VALUES</span> (<span class="dv">5</span>, <span class="st">'Ewan Curren'</span>, <span class="st">'ewan@dcu.com'</span>);</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="update-customer-email" class="level3">
+<h3 class="anchored" data-anchor-id="update-customer-email">4.4 Update customer email</h3>
+<div class="sourceCode" id="cb6"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">UPDATE</span> Customers</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">SET</span> Email <span class="op">=</span> <span class="st">'david@dcu.com'</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> Customer_ID <span class="op">=</span> <span class="dv">4</span>;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="average-quantity-ordered" class="level3">
+<h3 class="anchored" data-anchor-id="average-quantity-ordered">4.5 Average quantity ordered</h3>
+<div class="sourceCode" id="cb7"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> <span class="fu">AVG</span>(Quantity) <span class="kw">AS</span> avg_quantity</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> Orders;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="products-costing-more-than-300" class="level3">
+<h3 class="anchored" data-anchor-id="products-costing-more-than-300">4.6 Products costing more than 300</h3>
+<div class="sourceCode" id="cb8"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> Product_Name</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> Products</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> Price <span class="op">&gt;</span> <span class="dv">300</span>;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="customers-who-ordered-on-20240115" class="level3">
+<h3 class="anchored" data-anchor-id="customers-who-ordered-on-20240115">4.7 Customers who ordered on 2024‑01‑15</h3>
+<div class="sourceCode" id="cb9"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> c.Customer_Name</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> Customers <span class="kw">AS</span> c</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="kw">JOIN</span> Orders    <span class="kw">AS</span> o</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">ON</span> c.Customer_ID <span class="op">=</span> o.Customer_ID</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> o.Order_Date <span class="op">=</span> <span class="st">'2024-01-15'</span>;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="total-quantity-per-customer-after-20240131" class="level3">
+<h3 class="anchored" data-anchor-id="total-quantity-per-customer-after-20240131">4.8 Total quantity per customer after 2024‑01‑31</h3>
+<div class="sourceCode" id="cb10"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> c.Customer_Name,</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">SUM</span>(o.Quantity) <span class="kw">AS</span> Total_Quantity</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> Orders    <span class="kw">AS</span> o</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="kw">JOIN</span> Customers <span class="kw">AS</span> c</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="kw">ON</span> o.Customer_ID <span class="op">=</span> c.Customer_ID</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> o.Order_Date <span class="op">&gt;</span> <span class="st">'2024-01-31'</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="kw">GROUP</span> <span class="kw">BY</span> c.Customer_Name;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="total-quantity-per-customer-include-those-with-no-orders" class="level3">
+<h3 class="anchored" data-anchor-id="total-quantity-per-customer-include-those-with-no-orders">4.9 Total quantity per customer (include those with no orders)</h3>
+<div class="sourceCode" id="cb11"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">SELECT</span> c.Customer_Name,</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>       <span class="fu">COALESCE</span>(<span class="fu">SUM</span>(o.Quantity), <span class="dv">0</span>) <span class="kw">AS</span> Total_Quantity</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="kw">FROM</span> Customers <span class="kw">AS</span> c</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="kw">LEFT</span> <span class="kw">JOIN</span> Orders <span class="kw">AS</span> o</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="kw">ON</span> c.Customer_ID <span class="op">=</span> o.Customer_ID</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="kw">GROUP</span> <span class="kw">BY</span> c.Customer_Name</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="kw">ORDER</span> <span class="kw">BY</span> Total_Quantity <span class="kw">DESC</span>;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="remove-bob-johnson-entirely" class="level3">
+<h3 class="anchored" data-anchor-id="remove-bob-johnson-entirely">4.10 Remove Bob Johnson entirely</h3>
+<div class="sourceCode" id="cb12"><pre class="sourceCode sql code-with-copy"><code class="sourceCode sql"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">DELETE</span> <span class="kw">FROM</span> Orders</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> Customer_ID <span class="op">=</span> <span class="dv">2</span>;</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="kw">DELETE</span> <span class="kw">FROM</span> Customers</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="kw">WHERE</span> Customer_ID <span class="op">=</span> <span class="dv">2</span>;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

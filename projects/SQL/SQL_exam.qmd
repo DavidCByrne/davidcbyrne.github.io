@@ -75,18 +75,76 @@ VALUES
   (4, 3, 103, 1, '2024-03-05'),
   (5, 4, 104, 1, '2024-04-15'),
   (6, 3, 105, 3, '2024-03-15');
-  ```
+ ```
 
 ## 4. Explore the Data
 
-### 3.2 Retrieve product names
+### 4.2 Retrieve product names
 ```sql
 SELECT Product_Name
 FROM Products;
 ```
-### 3.3 Add new customer
+### 4.3 Add new customer
 ```sql
 INSERT INTO Customers (Customer_ID, Customer_Name, Email)
 VALUES (5, 'Ewan Curren', 'ewan@dcu.com');
 ```
+### 4.4 Update customer email
+```sql
+UPDATE Customers
+SET Email = 'david@dcu.com'
+WHERE Customer_ID = 4;
+```
 
+### 4.5 Average quantity ordered
+```sql
+SELECT AVG(Quantity) AS avg_quantity
+FROM Orders;
+```
+
+### 4.6 Products costing more than 300
+```sql
+SELECT Product_Name
+FROM Products
+WHERE Price > 300;
+```
+
+### 4.7 Customers who ordered on 2024‑01‑15
+```sql
+SELECT c.Customer_Name
+FROM Customers AS c
+JOIN Orders    AS o
+  ON c.Customer_ID = o.Customer_ID
+WHERE o.Order_Date = '2024-01-15';
+```
+
+### 4.8 Total quantity per customer after 2024‑01‑31
+```sql
+SELECT c.Customer_Name,
+       SUM(o.Quantity) AS Total_Quantity
+FROM Orders    AS o
+JOIN Customers AS c
+  ON o.Customer_ID = c.Customer_ID
+WHERE o.Order_Date > '2024-01-31'
+GROUP BY c.Customer_Name;
+```
+
+### 4.9 Total quantity per customer (include those with no orders)
+```sql
+SELECT c.Customer_Name,
+       COALESCE(SUM(o.Quantity), 0) AS Total_Quantity
+FROM Customers AS c
+LEFT JOIN Orders AS o
+  ON c.Customer_ID = o.Customer_ID
+GROUP BY c.Customer_Name
+ORDER BY Total_Quantity DESC;
+```
+
+### 4.10 Remove Bob Johnson entirely
+```sql
+DELETE FROM Orders
+WHERE Customer_ID = 2;
+
+DELETE FROM Customers
+WHERE Customer_ID = 2;
+```
