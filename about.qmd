@@ -27,7 +27,7 @@ format:
 <i class="fa-brands fa-python"></i>
 :::
 ### Python
-Built Python pipelines for data cleaning, visualization, and machine‑learning (pandas, scikit‑learn, XGBoost).
+Experienced in Python for ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.
 
 [→ View Python Projects](projects/baa1027_adv_python.qmd){.btn .btn-primary}
 :::
@@ -37,7 +37,7 @@ Built Python pipelines for data cleaning, visualization, and machine‑learning 
 <i class="fa-solid fa-database"></i>
 :::
 ### SQL
-Wrote complex SELECTs, JOINs, aggregations and performed normalization—89% in my SQL exam.
+Proficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.
 
 [→ View SQL Work](projects/programming&visualisation.qmd){.btn .btn-primary}
 :::
@@ -47,8 +47,9 @@ Wrote complex SELECTs, JOINs, aggregations and performed normalization—89% in 
 <i class="fa-solid fa-chart-line"></i>
 :::
 ### Power BI
-Developed interactive dashboards with custom DAX metrics, filters, and user‑centred layouts.
+Skilled in Power BI, built interactive US car sales dashboard with DAX metrics, filters, visualizations.
 
 [→ View Dashboards](projects/programming&visualisation.qmd){.btn .btn-primary}
 :::
 :::
+

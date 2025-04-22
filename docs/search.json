@@ -130,7 +130,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -144,13 +144,6 @@
     "href": "about.html#core-skills",
     "title": "David Byrne",
     "section": "Core Skills",
-    "text": "Core Skills\n\n\n\n\n\n\nPython\nBuilt Python pipelines for data cleaning, visualization, and machine‑learning (pandas, scikit‑learn, XGBoost).\n→ View Python Projects\n\n\n\n\n\n\n\nSQL\nWrote complex SELECTs, JOINs, aggregations and performed normalization—89% in my SQL exam.\n→ View SQL Work\n\n\n\n\n\n\n\nPower BI\nDeveloped interactive dashboards with custom DAX metrics, filters, and user‑centred layouts.\n→ View Dashboards"
-  },
-  {
-    "objectID": "about.html#core-skills-1",
-    "href": "about.html#core-skills-1",
-    "title": "David Byrne",
-    "section": "Core Skills",
-    "text": "Core Skills\n\n\n\n\n\n\nPython\nBuilt Python pipelines for data cleaning, visualization, and machine‑learning (pandas, scikit‑learn, XGBoost).\n→ View Python Projects\n\n\n\n\n\n\n\nSQL\nWrote complex SELECTs, JOINs, aggregations and performed normalization—89% in my SQL exam.\n→ View SQL Work\n\n\n\n\n\n\n\nPower BI\nDeveloped interactive dashboards with custom DAX metrics, filters, and user‑centred layouts.\n→ View Dashboards"
+    "text": "Core Skills\n\n\n\n\n\n\nPython\nExperienced in Python for ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.\n→ View Python Projects\n\n\n\n\n\n\n\nSQL\nProficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.\n→ View SQL Work\n\n\n\n\n\n\n\nPower BI\nSkilled in Power BI, built interactive US car sales dashboard with DAX metrics, filters, visualizations.\n→ View Dashboards"
   }
 ]
