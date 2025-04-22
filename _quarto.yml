@@ -30,6 +30,6 @@ format:
     theme: 
       - simplix
       - styles.scss
-    mainfont: Montserrat
+    mainfont: Montserrat 
     toc: false
     page-layout: full

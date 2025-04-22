@@ -3,3 +3,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
 
+// The below code is adapted from Lecture 8 - https://damien-dupre.github.io/BAA1028/lectures/lecture_8#/import-fonts
+// Colors
+$dark-navy:   #2B3A67;
+$soft-slate:  #F1F3F8;
+$light-sand:  #FAF8F4;
+$charcoal:    #4A4E69;
+$coral:       #E76F51;
+$teal:        #2A9D8F;
+
+// Base document colors
+$navbar-bg:   $dark-navy;   // navbar background
+$navbar-fg:   $light-sand;  // navbar text/icons
+$navbar-hl:   $teal;        // hover state
+$body-bg:     $soft-slate;  // page background 
+$body-color:  $charcoal;    // default text 
+$footer-bg:   $dark-navy;   // footer background
+$link-color:  $coral;       // hyperlinks 
+
+// Inline code
+$code-bg:     $light-sand;  // inline code background 
+$code-color:  $dark-navy;   // inline code text 
+
+// Code blocks
+$code-block-bg: $soft-slate; // code block background 
