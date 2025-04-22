@@ -130,20 +130,20 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "David Byrne",
     "section": "",
-    "text": "Final Year Business Studies Student in DCU (Analytics Specialism), expected to graduate with first-class honours. I have a strong academic record, achieving 613 points in the Leaving Certificate and a 1.1 grade across the first and second years of the Business Studies curriculum. Gained invaluable experience in the Finance industry through a year-long internship with KKR & Co Inc. Complemented by certifications in SQL, Python, and financial modeling, I am poised to contribute effectively to an analytical role upon graduation in May 2025."
+    "text": "Final Year Business Studies Student in DCU (Analytics Specialism), expected to graduate with first-class honours. I have a strong academic record, achieving 613 points in the Leaving Certificate and a 1.1 grade across the first and second years of the Business Studies curriculum. Gained invaluable experience in the Finance industry through a year-long internship with KKR & Co Inc. Complemented by certifications in SQL, Python, and financial modeling, I am poised to contribute effectively to an analytical role upon graduation in May 2025.\n\n\n\nCheck out some of my work\n► My projects can be seen here\n\n\n\nCore Skills\n\n\n\n&lt;i class=\"fa-brands fa-python skill-icon\"&gt;&lt;/i&gt;\n&lt;h3&gt;Python&lt;/h3&gt;\n&lt;p&gt;Built Python pipelines for data cleaning, visualization, and machine‑learning (pandas, scikit‑learn, XGBoost).&lt;/p&gt;\n&lt;a class=\"btn btn-primary\" href=\"projects/baa1027_adv_python.qmd\"&gt;→ View Python Projects&lt;/a&gt;\n\n\n\n&lt;i class=\"fa-solid fa-database skill-icon\"&gt;&lt;/i&gt;\n&lt;h3&gt;SQL&lt;/h3&gt;\n&lt;p&gt;Wrote complex SELECTs, JOINs, aggregations and performed normalization—89% in my SQL exam.&lt;/p&gt;\n&lt;a class=\"btn btn-primary\" href=\"projects/programming&visualisation.qmd\"&gt;→ View SQL Work&lt;/a&gt;\n\n\n\n&lt;i class=\"fa-solid fa-chart-line skill-icon\"&gt;&lt;/i&gt;\n&lt;h3&gt;Power BI&lt;/h3&gt;\n&lt;p&gt;Developed interactive dashboards with custom DAX metrics, filters, and user‑centred layouts.&lt;/p&gt;\n&lt;a class=\"btn btn-primary\" href=\"projects/programming&visualisation.qmd\"&gt;→ View Dashboards&lt;/a&gt;"
   },
   {
     "objectID": "about.html#core-skills",
     "href": "about.html#core-skills",
     "title": "David Byrne",
     "section": "Core Skills",
-    "text": "Core Skills\n\n\n\nPython\nExperienced in Python for ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.\n→ View Python Projects\n\n\n\nSQL\nProficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.\n→ View SQL Projects\n\n\n\nPower BI\nSkilled in Power BI, built interactive US car sales dashboard with DAX metrics, filters, visualizations.\n→ View Power BI Dashboards\n\n\n\n Did you see the star?"
+    "text": "Core Skills\n::: columns gutter=“4”\n\n\n\n\nPython\n\n\nBuilt Python pipelines for data cleaning, visualization, and machine‑learning (pandas, scikit‑learn, XGBoost).\n\n→ View Python Projects\n\n\n\n\n\n\nSQL\n\n\nWrote complex SELECTs, JOINs, aggregations and performed normalization—89% in my SQL exam.\n\n→ View SQL Work\n\n\n\n\n\n\nPower BI\n\n\nDeveloped interactive dashboards with custom DAX metrics, filters and user‑centred layouts.\n\n→ View Dashboards\n\n\n:::"
   }
 ]

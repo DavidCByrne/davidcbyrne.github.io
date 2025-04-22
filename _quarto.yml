@@ -33,4 +33,4 @@ format:
     mainfont: Montserrat 
     toc: false
     page-layout: full
-    icon-pack: fontawesome
+    fontawesome: true

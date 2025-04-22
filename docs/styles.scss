@@ -27,3 +27,41 @@ $code-color:  $dark-navy;   // inline code text
 
 // Code blocks
 $code-block-bg: $soft-slate; // code block background 
+
+/*-- scss:rules --*/
+
+// Grid for skills about page
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .skill-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform .2s, box-shadow .2s;
+  }
+  .skill-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  .skill-icon {
+    font-size: 2rem;
+    color: var(--bs-primary);
+    margin-bottom: .5rem;
+  }
+  
+  .skill-card h3 {
+    margin: .5rem 0;
+    font-weight: 600;
+  }
+  .skill-card p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
