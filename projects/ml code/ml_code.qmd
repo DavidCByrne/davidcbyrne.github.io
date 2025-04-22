@@ -3,6 +3,7 @@ title: "Machine Learning Project Code"
 page-layout: full
 sidebar: false
 jupyter: python3
+freeze: true
 execute:
     enbabled: true
 ---
