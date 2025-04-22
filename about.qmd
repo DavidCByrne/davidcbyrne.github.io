@@ -27,7 +27,7 @@ format:
 ::: column
 ### Python
 
-Experienced in Python for end-to-end ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.
+Experienced in Python for ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.
 
 [→ View Python Projects](projects/baa1027_adv_python.qmd){.btn .btn-primary}
 
