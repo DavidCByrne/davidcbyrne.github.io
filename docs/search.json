@@ -88,7 +88,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -110,5 +110,12 @@
     "title": "David Byrne",
     "section": "Core Skills",
     "text": "Core Skills\n\n\n\nPython\nI’ve built data‑processing and machine‑learning pipelines in Python using pandas, scikit‑learn, XGBoost, and more—to turn raw data into predictive models and visual insights.\n→ View Python Projects\n\n\n\nSQL\nProficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.\n→ View SQL Projects\n\n\n\nPower BI\nDesigned interactive Power BI dashboards—connecting live data sources, crafting DAX measures, and focusing on user‑centred visual storytelling.\n→ View Power BI Dashboards"
+  },
+  {
+    "objectID": "projects/programming&visualisation.html",
+    "href": "projects/programming&visualisation.html",
+    "title": "Programming & Visualisation",
+    "section": "",
+    "text": "SQL\n\n\nPower BI\n\n\nPython"
   }
 ]

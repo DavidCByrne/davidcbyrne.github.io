@@ -1,0 +1,13 @@
+---
+title: "Programming & Visualisation"
+subtitle: "BAA1026"
+#Photo from Analytics Insight - https://www.analyticsinsight.net/data-visualization/essential-programming-languages-for-data-visualization
+image: "/projects/images/programming.png"
+page-layout: full
+---
+
+# SQL
+
+# Power BI
+
+# Python
