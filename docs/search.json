@@ -74,7 +74,7 @@
     "href": "about.html",
     "title": "David Byrne",
     "section": "",
-    "text": "Final Year Business Studies Student in DCU (Analytics Specialism), expected to graduate with first-class honours. I have a strong academic record, achieving 613 points in the Leaving Certificate and a 1.1 grade across the first and second years of the Business Studies curriculum. Gained invaluable experience in the Finance industry through a year-long internship with KKR & Co Inc. Complemented by certifications in SQL, Python, and financial modeling, I am poised to contribute effectively to an analytical role upon graduation in May 2025.\n\n\n\nCheck out some of my work\n► My projects can be seen here"
+    "text": "Final Year Business Studies Student in DCU (Analytics Specialism), expected to graduate with first-class honours. I have a strong academic record, achieving 613 points in the Leaving Certificate and a 1.1 grade across the first and second years of the Business Studies curriculum. Gained invaluable experience in the Finance industry through a year-long internship with KKR & Co Inc. Complemented by certifications in SQL, Python, and financial modeling, I am poised to contribute effectively to an analytical role upon graduation in May 2025."
   },
   {
     "objectID": "certifications.html#full-kubicle-certificate-list",
@@ -110,5 +110,19 @@
     "title": "Certifications",
     "section": "SQL",
     "text": "SQL\n\n\n\nSQL"
+  },
+  {
+    "objectID": "about.html#core-skills",
+    "href": "about.html#core-skills",
+    "title": "David Byrne",
+    "section": "Core Skills",
+    "text": "Core Skills\n\n\n\nPython\nI’ve built data‑processing and machine‑learning pipelines in Python using pandas, scikit‑learn, XGBoost, and more—to turn raw data into predictive models and visual insights.\n→ View Python Projects\n\n\n\nSQL\nProficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.\n→ View SQL Projects\n\n\n\nPower BI\nDesigned interactive Power BI dashboards—connecting live data sources, crafting DAX measures, and focusing on user‑centred visual storytelling.\n→ View Power BI Dashboards"
+  },
+  {
+    "objectID": "about.html#check-out-some-of-my-work",
+    "href": "about.html#check-out-some-of-my-work",
+    "title": "David Byrne",
+    "section": "Check out some of my work",
+    "text": "Check out some of my work\n► My projects can be seen here"
   }
 ]
