@@ -27,7 +27,7 @@ format:
 ::: column
 ### Python
 
-Proficient in Python for end-to-end ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.
+Experienced in Python for end-to-end ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.
 
 [→ View Python Projects](projects/baa1027_adv_python.qmd){.btn .btn-primary}
 
@@ -45,7 +45,7 @@ Proficient in SQL for database querying, data manipulation, and management, ensu
 ::: column
 ### Power BI
 
-Designed interactive Power BI dashboards—connecting live data sources, crafting DAX measures, and focusing on user‑centred visual storytelling.
+Skilled in Power BI, built interactive US car sales dashboard with DAX metrics, filters, visualizations.
 
 [→ View Power BI Dashboards](projects/programming&visualisation.qmd){.btn .btn-primary}
 
