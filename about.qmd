@@ -52,3 +52,5 @@ Skilled in Power BI, built interactive US car sales dashboard with DAX metrics, 
 :::
 
 :::
+
+<i class="fas fa-star"></i> Did you see the star?

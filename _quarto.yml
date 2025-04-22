@@ -27,10 +27,10 @@ website:
 
 format:
   html:
-    icon-pack: fontawesome
     theme: 
       - simplix
       - styles.scss
     mainfont: Montserrat 
     toc: false
     page-layout: full
+    icon-pack: fontawesome
