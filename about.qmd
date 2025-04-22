@@ -47,9 +47,8 @@ Proficient in SQL for database querying, data manipulation, and management, ensu
 <i class="fa-solid fa-chart-line"></i>
 :::
 ### Power BI
-Skilled in Power BI, built interactive US car sales dashboard with DAX metrics, filters, visualizations.
+Skilled in Power BI, built interactive US car sales dashboard with DAX metrics, filters, visualisations, cleaned through SQL.
 
 [→ View Dashboards](projects/programming&visualisation.qmd){.btn .btn-primary}
 :::
 :::
-
