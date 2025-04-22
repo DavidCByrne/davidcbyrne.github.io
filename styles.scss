@@ -1,28 +1,22 @@
-/* 0) Make *all* text Montserrat */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+/*-- scss:defaults --*/
 
-html, body, h1, h2, h3, h4, h5, h6,
-p, li, blockquote, a, .nav-link, .dropdown-item {
-  font-family: 'Montserrat', sans-serif !important;
-}
+// Colors
+$dark-green: #858E79;
+$light-green: #D1D9CE;
+$cream: #FDFBF7;
+$gray: #64605f;
+$purple: #9158A2;
+$orange: #ad7237;
 
-/* 1) Darken nav links so they’re visible on white */
-.navbar, .navbar-toggler {
-  background-color: #fff !important;
-}
-.navbar .nav-link,
-.navbar .navbar-brand {
-  color: #333 !important;       
-}
-.navbar .nav-link:hover,
-.navbar .navbar-brand:hover {
-  color: var(--bs-primary) !important;   
-}
+// Base document colors
+$navbar-bg: $cream; // navbar
+$navbar-fg: $dark-green; // navbar foreground elements
+$navbar-hl: $purple; // highlight color when hovering over navbar links
+$body-bg: $light-green; // page background 
+$body-color: $gray; // page text 
+$footer-bg: $cream; // footer 
+$link-color: $purple; // hyperlinks 
 
-/* 2) Tweak the search icon, toggle, etc. */
-.navbar .icon-link {
-  color: #333 !important;
-}
-.navbar .icon-link:hover {
-  color: var(--bs-primary) !important;
-}
+// Inline code
+$code-bg: $cream; // inline code background color
+$code-color: $purple; // inline code text color
