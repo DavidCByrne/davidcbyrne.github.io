@@ -19,13 +19,12 @@ format:
 [► My projects can be seen here](projects.qmd)
 
 ---
-# Core Skills
+## Core Skills
 
-::: skill-grid
-
-::: skill-card
-::: skill-icon
-<i class="fa fa-python"></i>
+::: {.skill-grid}
+::: {.skill-card}
+::: {.skill-icon}
+<i class="fa-brands fa-python"></i>
 :::
 ### Python
 Built Python pipelines for data cleaning, visualization, and machine‑learning (pandas, scikit‑learn, XGBoost).
@@ -33,9 +32,9 @@ Built Python pipelines for data cleaning, visualization, and machine‑learning 
 [→ View Python Projects](projects/baa1027_adv_python.qmd){.btn .btn-primary}
 :::
 
-::: skill-card
-::: skill-icon
-<i class="fa fa-database"></i>
+::: {.skill-card}
+::: {.skill-icon}
+<i class="fa-solid fa-database"></i>
 :::
 ### SQL
 Wrote complex SELECTs, JOINs, aggregations and performed normalization—89% in my SQL exam.
@@ -43,14 +42,13 @@ Wrote complex SELECTs, JOINs, aggregations and performed normalization—89% in 
 [→ View SQL Work](projects/programming&visualisation.qmd){.btn .btn-primary}
 :::
 
-::: skill-card
-::: skill-icon
-<i class="fa fa-line-chart"></i>
+::: {.skill-card}
+::: {.skill-icon}
+<i class="fa-solid fa-chart-line"></i>
 :::
 ### Power BI
 Developed interactive dashboards with custom DAX metrics, filters, and user‑centred layouts.
 
 [→ View Dashboards](projects/programming&visualisation.qmd){.btn .btn-primary}
 :::
-
 :::
