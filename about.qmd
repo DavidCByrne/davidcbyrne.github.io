@@ -25,7 +25,7 @@ format:
 
 ::: skill-card
 ::: skill-icon
-<i class="fab fa-python"></i>
+<i class="fa fa-python"></i>
 :::
 ### Python
 Built Python pipelines for data cleaning, visualization, and machine‑learning (pandas, scikit‑learn, XGBoost).
@@ -35,7 +35,7 @@ Built Python pipelines for data cleaning, visualization, and machine‑learning 
 
 ::: skill-card
 ::: skill-icon
-<i class="fas fa-database"></i>
+<i class="fa fa-database"></i>
 :::
 ### SQL
 Wrote complex SELECTs, JOINs, aggregations and performed normalization—89% in my SQL exam.
@@ -45,7 +45,7 @@ Wrote complex SELECTs, JOINs, aggregations and performed normalization—89% in 
 
 ::: skill-card
 ::: skill-icon
-<i class="fas fa-chart-line"></i>
+<i class="fa fa-line-chart"></i>
 :::
 ### Power BI
 Developed interactive dashboards with custom DAX metrics, filters, and user‑centred layouts.
