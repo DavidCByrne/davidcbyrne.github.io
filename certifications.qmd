@@ -7,22 +7,28 @@ Over the past few years, I’ve actively engaged with a wide range of additional
 
 ---
 
-##  Highlights
 
 Here are some selected certifications that represent a broad mix of my technical and analytical development:
 
 ::: {.cert-grid}
 
-![Intermediate Python](images/certifications/datacamp_python.png)
-![Power BI Dashboards](images/certifications/powerbi.png)
-![SQL](images/certifications/sql_joins.png)
+## Excel
 ![Financial Modelling](images/certifications/financial_modelling.png)
+
+## Python
+![Intermediate Python](images/certifications/datacamp_python.png)
+
+## Power BI
+![Power BI Dashboards](images/certifications/powerbi.png)
+
+## SQL
+![SQL](images/certifications/sql_joins.png)
 
 :::
 
 ---
 
-## Full Certificate List
+## Full Kubicle Certificate List
 
 ::: {.cert-grid}
 
