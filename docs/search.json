@@ -7,18 +7,39 @@
     "text": "Over the past few years, I’ve actively engaged with a wide range of additional courses to build practical, industry-relevant skills in data analytics, AI, visualisation, and business software. These certifications represent more than just technical knowledge, they reflect my ongoing commitment to continuous learning and applying data-driven insights in real-world scenarios. From early foundations in Excel and Tableau to more advanced concepts in Python, SQL, and AI, each course has contributed to deepening my analytical thinking and problem-solving approach. Collectively, these certifications have given me a strong, well-rounded skill set that I’ve applied across academic projects, business cases, and technical implementations.\nHere are some selected certifications that represent a broad mix of my technical and analytical development:"
   },
   {
-    "objectID": "certifications.html#highlights",
-    "href": "certifications.html#highlights",
+    "objectID": "certifications.html#excel",
+    "href": "certifications.html#excel",
     "title": "Certifications",
-    "section": "Highlights",
-    "text": "Highlights\nHere are some selected certifications that represent a broad mix of my technical and analytical development:"
+    "section": "Excel",
+    "text": "Excel\n\n\n\nFinancial Modelling"
   },
   {
-    "objectID": "certifications.html#full-certificate-list",
-    "href": "certifications.html#full-certificate-list",
+    "objectID": "certifications.html#python",
+    "href": "certifications.html#python",
     "title": "Certifications",
-    "section": "Full Certificate List",
-    "text": "Full Certificate List"
+    "section": "Python",
+    "text": "Python\n\n\n\nIntermediate Python"
+  },
+  {
+    "objectID": "certifications.html#power-bi",
+    "href": "certifications.html#power-bi",
+    "title": "Certifications",
+    "section": "Power BI",
+    "text": "Power BI\n\n\n\nPower BI Dashboards"
+  },
+  {
+    "objectID": "certifications.html#sql",
+    "href": "certifications.html#sql",
+    "title": "Certifications",
+    "section": "SQL",
+    "text": "SQL\n\n\n\nSQL"
+  },
+  {
+    "objectID": "certifications.html#full-kubicle-certificate-list",
+    "href": "certifications.html#full-kubicle-certificate-list",
+    "title": "Certifications",
+    "section": "Full Kubicle Certificate List",
+    "text": "Full Kubicle Certificate List"
   },
   {
     "objectID": "index.html",
@@ -67,7 +88,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -77,39 +98,11 @@
     "text": "Final Year Business Studies Student in DCU (Analytics Specialism), expected to graduate with first-class honours. I have a strong academic record, achieving 613 points in the Leaving Certificate and a 1.1 grade across the first and second years of the Business Studies curriculum. Gained invaluable experience in the Finance industry through a year-long internship with KKR & Co Inc. Complemented by certifications in SQL, Python, and financial modeling, I am poised to contribute effectively to an analytical role upon graduation in May 2025."
   },
   {
-    "objectID": "certifications.html#full-kubicle-certificate-list",
-    "href": "certifications.html#full-kubicle-certificate-list",
-    "title": "Certifications",
-    "section": "Full Kubicle Certificate List",
-    "text": "Full Kubicle Certificate List"
-  },
-  {
-    "objectID": "certifications.html#excel",
-    "href": "certifications.html#excel",
-    "title": "Certifications",
-    "section": "Excel",
-    "text": "Excel\n\n\n\nFinancial Modelling"
-  },
-  {
-    "objectID": "certifications.html#python",
-    "href": "certifications.html#python",
-    "title": "Certifications",
-    "section": "Python",
-    "text": "Python\n\n\n\nIntermediate Python"
-  },
-  {
-    "objectID": "certifications.html#power-bi",
-    "href": "certifications.html#power-bi",
-    "title": "Certifications",
-    "section": "Power BI",
-    "text": "Power BI\n\n\n\nPower BI Dashboards"
-  },
-  {
-    "objectID": "certifications.html#sql",
-    "href": "certifications.html#sql",
-    "title": "Certifications",
-    "section": "SQL",
-    "text": "SQL\n\n\n\nSQL"
+    "objectID": "about.html#check-out-some-of-my-work",
+    "href": "about.html#check-out-some-of-my-work",
+    "title": "David Byrne",
+    "section": "Check out some of my work",
+    "text": "Check out some of my work\n► My projects can be seen here"
   },
   {
     "objectID": "about.html#core-skills",
@@ -117,12 +110,5 @@
     "title": "David Byrne",
     "section": "Core Skills",
     "text": "Core Skills\n\n\n\nPython\nI’ve built data‑processing and machine‑learning pipelines in Python using pandas, scikit‑learn, XGBoost, and more—to turn raw data into predictive models and visual insights.\n→ View Python Projects\n\n\n\nSQL\nProficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.\n→ View SQL Projects\n\n\n\nPower BI\nDesigned interactive Power BI dashboards—connecting live data sources, crafting DAX measures, and focusing on user‑centred visual storytelling.\n→ View Power BI Dashboards"
-  },
-  {
-    "objectID": "about.html#check-out-some-of-my-work",
-    "href": "about.html#check-out-some-of-my-work",
-    "title": "David Byrne",
-    "section": "Check out some of my work",
-    "text": "Check out some of my work\n► My projects can be seen here"
   }
 ]
