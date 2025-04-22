@@ -5,7 +5,7 @@ page-layout: full
 
 Over the past few years, I’ve actively engaged with a wide range of additional courses to build practical, industry-relevant skills in data analytics, AI, visualisation, and business software. These certifications represent more than just technical knowledge, they reflect my ongoing commitment to continuous learning and applying data-driven insights in real-world scenarios. From early foundations in Excel and Tableau to more advanced concepts in Python, SQL, and AI, each course has contributed to deepening my analytical thinking and problem-solving approach. Collectively, these certifications have given me a strong, well-rounded skill set that I’ve applied across academic projects, business cases, and technical implementations.
 
----
+
 
 
 Here are some selected certifications that represent a broad mix of my technical and analytical development:

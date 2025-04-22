@@ -27,7 +27,7 @@ format:
 ::: column
 ### Python
 
-I’ve built data‑processing and machine‑learning pipelines in Python using `pandas`, `scikit‑learn`, XGBoost, and more—to turn raw data into predictive models and visual insights.
+Proficient in Python for end-to-end ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.
 
 [→ View Python Projects](projects/baa1027_adv_python.qmd){.btn .btn-primary}
 
@@ -47,7 +47,7 @@ Proficient in SQL for database querying, data manipulation, and management, ensu
 
 Designed interactive Power BI dashboards—connecting live data sources, crafting DAX measures, and focusing on user‑centred visual storytelling.
 
-[→ View Power BI Dashboards](projects/powerbi-dashboards.qmd){.btn .btn-primary}
+[→ View Power BI Dashboards](projects/programming&visualisation.qmd){.btn .btn-primary}
 
 :::
 
