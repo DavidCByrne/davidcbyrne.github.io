@@ -16,6 +16,9 @@ website:
       - text: "Projects"
         icon: collection
         href: projects.qmd
+      - text: "Certifications"
+        icon: award
+        href: certifications.qmd
       - text: "CV"
         icon: file-earmark-person
         href: cv.pdf
