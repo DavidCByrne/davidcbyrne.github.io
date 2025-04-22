@@ -130,7 +130,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -144,6 +144,6 @@
     "href": "about.html#core-skills",
     "title": "David Byrne",
     "section": "Core Skills",
-    "text": "Core Skills\n\n\n\n\n\n\nPython\nExperienced in Python for ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.\n→ View Python Projects\n\n\n\n\n\n\n\nSQL\nProficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.\n→ View SQL Work\n\n\n\n\n\n\n\nPower BI\nSkilled in Power BI, built interactive US car sales dashboard with DAX metrics, filters, visualisations, cleaned through SQL.\n→ View Dashboards"
+    "text": "Core Skills\n\n\n\n\nPython\nExperienced in Python for ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.\n→ View Python Projects\n\n\n\n\n\nSQL\nProficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility\n→ View SQL Work\n\n\n\n\n\nPower BI\nSkilled in Power BI, built an interactive US car sales dashboard with DAX metrics, filters, and visualisations.\n→ View Dashboards"
   }
 ]

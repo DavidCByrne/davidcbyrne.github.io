@@ -7,6 +7,7 @@ about:
 format:
   html:
     css: styles.scss
+    fontawesome: true
     toc: false
 
 ---
@@ -21,34 +22,39 @@ format:
 ---
 ## Core Skills
 
-::: {.skill-grid}
-::: {.skill-card}
-::: {.skill-icon}
-<i class="fa-brands fa-python"></i>
-:::
-### Python
+::: skill-grid
+
+::: skill-card
+
+{{< fa python >}}
+
+### Python  
 Experienced in Python for ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.
 
 [→ View Python Projects](projects/baa1027_adv_python.qmd){.btn .btn-primary}
+
 :::
 
-::: {.skill-card}
-::: {.skill-icon}
-<i class="fa-solid fa-database"></i>
-:::
-### SQL
-Proficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.
+::: skill-card
+
+{{< fa database >}}
+
+### SQL  
+Proficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility
 
 [→ View SQL Work](projects/programming&visualisation.qmd){.btn .btn-primary}
+
 :::
 
-::: {.skill-card}
-::: {.skill-icon}
-<i class="fa-solid fa-chart-line"></i>
-:::
-### Power BI
-Skilled in Power BI, built interactive US car sales dashboard with DAX metrics, filters, visualisations, cleaned through SQL.
+::: skill-card
+
+{{< fa chart-line >}}
+
+### Power BI  
+Skilled in Power BI, built an interactive US car sales dashboard with DAX metrics, filters, and visualisations.
 
 [→ View Dashboards](projects/programming&visualisation.qmd){.btn .btn-primary}
+
 :::
+
 :::
