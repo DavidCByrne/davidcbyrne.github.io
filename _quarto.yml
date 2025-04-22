@@ -27,7 +27,9 @@ website:
 
 format:
   html:
-    theme:
-      light: simplex
-      dark: darkly
-    css: styles.scss
+    theme: 
+      - simplix
+      - styles.scss
+    mainfont: Montserrat
+    toc: false
+    page-layout: full
