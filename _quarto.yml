@@ -27,6 +27,7 @@ website:
 
 format:
   html:
+    icon-pack: fontawesome
     theme: 
       - simplix
       - styles.scss
