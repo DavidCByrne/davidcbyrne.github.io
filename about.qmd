@@ -21,31 +21,36 @@ format:
 ---
 # Core Skills
 
+::: skill-grid
 
-<div class="skill-grid">
+::: skill-card
+::: skill-icon
+<i class="fab fa-python"></i>
+:::
+### Python
+Built Python pipelines for data cleaning, visualization, and machine‑learning (pandas, scikit‑learn, XGBoost).
 
-  <!-- Python card -->
-  <div class="skill-card">
-    <i class="fa-brands fa-python skill-icon"></i>
-    <h3>Python</h3>
-    <p>Built Python pipelines for data cleaning, visualization, and machine‑learning (pandas, scikit‑learn, XGBoost).</p>
-    <a class="btn btn-primary" href="projects/baa1027_adv_python.qmd">→ View Python Projects</a>
-  </div>
+[→ View Python Projects](projects/baa1027_adv_python.qmd){.btn .btn-primary}
+:::
 
-  <!-- SQL card -->
-  <div class="skill-card">
-    <i class="fa-solid fa-database skill-icon"></i>
-    <h3>SQL</h3>
-    <p>Wrote complex SELECTs, JOINs, aggregations and performed normalization—89% in my SQL exam.</p>
-    <a class="btn btn-primary" href="projects/programming&visualisation.qmd">→ View SQL Work</a>
-  </div>
+::: skill-card
+::: skill-icon
+<i class="fas fa-database"></i>
+:::
+### SQL
+Wrote complex SELECTs, JOINs, aggregations and performed normalization—89% in my SQL exam.
 
-  <!-- Power BI card -->
-  <div class="skill-card">
-    <i class="fa-solid fa-chart-line skill-icon"></i>
-    <h3>Power BI</h3>
-    <p>Developed interactive dashboards with custom DAX metrics, filters, and user‑centred layouts.</p>
-    <a class="btn btn-primary" href="projects/programming&visualisation.qmd">→ View Dashboards</a>
-  </div>
+[→ View SQL Work](projects/programming&visualisation.qmd){.btn .btn-primary}
+:::
 
-</div>
+::: skill-card
+::: skill-icon
+<i class="fas fa-chart-line"></i>
+:::
+### Power BI
+Developed interactive dashboards with custom DAX metrics, filters, and user‑centred layouts.
+
+[→ View Dashboards](projects/programming&visualisation.qmd){.btn .btn-primary}
+:::
+
+:::
