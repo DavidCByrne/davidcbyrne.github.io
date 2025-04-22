@@ -1,0 +1,92 @@
+---
+title: "SQL Exam Code"
+page-layout: full
+sidebar: false
+---
+
+## 1. Setup & Database Creation
+
+```sql
+-- Remove any old tables
+DROP TABLE IF EXISTS Orders;
+DROP TABLE IF EXISTS Products;
+DROP TABLE IF EXISTS Customers;
+
+-- Create a new database and switch into it
+CREATE DATABASE TechCie;
+USE TechCie;
+```
+
+## 2. Table Definitions
+
+```sql
+-- Customers table
+CREATE TABLE Customers (
+  Customer_ID   INT PRIMARY KEY,
+  Customer_Name VARCHAR(20),
+  Email         VARCHAR(30)
+);
+
+-- Products table
+CREATE TABLE Products (
+  Product_ID   INT PRIMARY KEY,
+  Product_Name VARCHAR(20),
+  Price        FLOAT
+);
+
+-- Orders table, with foreign keys
+CREATE TABLE Orders (
+  Order_ID     INT PRIMARY KEY,
+  Customer_ID  INT,
+  Product_ID   INT,
+  Quantity     INT,
+  Order_Date   DATE,
+  FOREIGN KEY (Customer_ID) REFERENCES Customers(Customer_ID),
+  FOREIGN KEY (Product_ID)  REFERENCES Products(Product_ID)
+);
+```
+
+## 3. Insert Sample Data
+
+```sql
+-- Populate Customers
+INSERT INTO Customers (Customer_ID, Customer_Name, Email)
+VALUES
+  (1, 'Alice Smith', 'alice@dcu.com'),
+  (2, 'Bob Johnson', 'bob@dcu.com'),
+  (3, 'Carol Davis', 'carol@ucd.com'),
+  (4, 'David Brown', 'david@tcd.com');
+
+-- Populate Products
+INSERT INTO Products (Product_ID, Product_Name, Price)
+VALUES
+  (101, 'Laptop',    1200),
+  (102, 'Smartphone', 800.5),
+  (103, 'Tablet',     400),
+  (104, 'Monitor',    250),
+  (105, 'Keyboard',    50.5);
+
+-- Populate Orders
+INSERT INTO Orders (Order_ID, Customer_ID, Product_ID, Quantity, Order_Date)
+VALUES
+  (1, 1, 101, 1, '2024-01-15'),
+  (2, 1, 105, 2, '2024-01-16'),
+  (3, 2, 102, 1, '2024-01-15'),
+  (4, 3, 103, 1, '2024-03-05'),
+  (5, 4, 104, 1, '2024-04-15'),
+  (6, 3, 105, 3, '2024-03-15');
+  ```
+
+## 4. Explore the Data
+
+### 3.2 Retrieve product names
+```sql
+SELECT Product_Name
+FROM Products;
+```
+### 3.3 Add new customer
+```sql
+INSERT INTO Customers (Customer_ID, Customer_Name, Email)
+VALUES (5, 'Ewan Curren', 'ewan@dcu.com');
+```
+

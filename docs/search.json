@@ -117,5 +117,40 @@
     "title": "Programming & Visualisation",
     "section": "",
     "text": "SQL\n\n\nPower BI\n\n\nPython"
+  },
+  {
+    "objectID": "projects/SQL/SQL_exam.html",
+    "href": "projects/SQL/SQL_exam.html",
+    "title": "SQL Exam Code",
+    "section": "",
+    "text": "-- Remove any old tables\nDROP TABLE IF EXISTS Orders;\nDROP TABLE IF EXISTS Products;\nDROP TABLE IF EXISTS Customers;\n\n-- Create a new database and switch into it\nCREATE DATABASE TechCie;\nUSE TechCie;"
+  },
+  {
+    "objectID": "projects/SQL/SQL_exam.html#setup-database-creation",
+    "href": "projects/SQL/SQL_exam.html#setup-database-creation",
+    "title": "SQL Exam Code",
+    "section": "",
+    "text": "-- Remove any old tables\nDROP TABLE IF EXISTS Orders;\nDROP TABLE IF EXISTS Products;\nDROP TABLE IF EXISTS Customers;\n\n-- Create a new database and switch into it\nCREATE DATABASE TechCie;\nUSE TechCie;"
+  },
+  {
+    "objectID": "projects/SQL/SQL_exam.html#table-definitions",
+    "href": "projects/SQL/SQL_exam.html#table-definitions",
+    "title": "SQL Exam Code",
+    "section": "2. Table Definitions",
+    "text": "2. Table Definitions\n-- Customers table\nCREATE TABLE Customers (\n  Customer_ID   INT PRIMARY KEY,\n  Customer_Name VARCHAR(20),\n  Email         VARCHAR(30)\n);\n\n-- Products table\nCREATE TABLE Products (\n  Product_ID   INT PRIMARY KEY,\n  Product_Name VARCHAR(20),\n  Price        FLOAT\n);\n\n-- Orders table, with foreign keys\nCREATE TABLE Orders (\n  Order_ID     INT PRIMARY KEY,\n  Customer_ID  INT,\n  Product_ID   INT,\n  Quantity     INT,\n  Order_Date   DATE,\n  FOREIGN KEY (Customer_ID) REFERENCES Customers(Customer_ID),\n  FOREIGN KEY (Product_ID)  REFERENCES Products(Product_ID)\n);"
+  },
+  {
+    "objectID": "projects/SQL/SQL_exam.html#insert-sample-data",
+    "href": "projects/SQL/SQL_exam.html#insert-sample-data",
+    "title": "SQL Exam Code",
+    "section": "3. Insert Sample Data",
+    "text": "3. Insert Sample Data\n-- Populate Customers\nINSERT INTO Customers (Customer_ID, Customer_Name, Email)\nVALUES\n  (1, 'Alice Smith', 'alice@dcu.com'),\n  (2, 'Bob Johnson', 'bob@dcu.com'),\n  (3, 'Carol Davis', 'carol@ucd.com'),\n  (4, 'David Brown', 'david@tcd.com');\n\n-- Populate Products\nINSERT INTO Products (Product_ID, Product_Name, Price)\nVALUES\n  (101, 'Laptop',    1200),\n  (102, 'Smartphone', 800.5),\n  (103, 'Tablet',     400),\n  (104, 'Monitor',    250),\n  (105, 'Keyboard',    50.5);\n\n-- Populate Orders\nINSERT INTO Orders (Order_ID, Customer_ID, Product_ID, Quantity, Order_Date)\nVALUES\n  (1, 1, 101, 1, '2024-01-15'),\n  (2, 1, 105, 2, '2024-01-16'),\n  (3, 2, 102, 1, '2024-01-15'),\n  (4, 3, 103, 1, '2024-03-05'),\n  (5, 4, 104, 1, '2024-04-15'),\n  (6, 3, 105, 3, '2024-03-15');"
+  },
+  {
+    "objectID": "projects/SQL/SQL_exam.html#explore-the-data",
+    "href": "projects/SQL/SQL_exam.html#explore-the-data",
+    "title": "SQL Exam Code",
+    "section": "4. Explore the Data",
+    "text": "4. Explore the Data\n\n3.2 Retrieve product names\nSELECT Product_Name\nFROM Products;\n\n\n3.3 Add new customer\nINSERT INTO Customers (Customer_ID, Customer_Name, Email)\nVALUES (5, 'Ewan Curren', 'ewan@dcu.com');"
   }
 ]

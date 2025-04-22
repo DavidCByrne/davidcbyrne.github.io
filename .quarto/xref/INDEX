@@ -31,5 +31,8 @@
   },
   "projects/programming&visualisation.qmd": {
     "programming&visualisation.html": "fa478fe4"
+  },
+  "projects/SQL/SQL_exam.qmd": {
+    "SQL_exam.html": "ffec7327"
   }
 }

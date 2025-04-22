@@ -7,7 +7,7 @@ page-layout: full
 ---
 
 # SQL
-
+[► See SQL Exam Work](SQL/SQL_exam.qmd)
 # Power BI
 
 # Python
