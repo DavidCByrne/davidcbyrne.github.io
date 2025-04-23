@@ -10,19 +10,26 @@ Over the past few years, I’ve actively engaged with a wide range of additional
 
 Here are some selected certifications that represent a broad mix of my technical and analytical development:
 
-::: {.cert-grid}
+::: {.skill-grid style="grid-template-columns:1fr; gap:2rem;"}
+### Excel
+::: {.skill-card}
+![Financial Modelling](images/certifications/financial_modelling.png){width="80%" style="margin:0 auto 1rem auto;"}
+:::
 
-## Excel
-![Financial Modelling](images/certifications/financial_modelling.png)
+### Python
+::: {.skill-card}
+![Intermediate Python](images/certifications/datacamp_python.png){width="80%" style="margin:0 auto 1rem auto;"}
+:::
 
-## Python
-![Intermediate Python](images/certifications/datacamp_python.png)
+### Power BI
+::: {.skill-card}
+![Power BI Dashboards](images/certifications/powerbi.png){width="80%" style="margin:0 auto 1rem auto;"}
+:::
 
-## Power BI
-![Power BI Dashboards](images/certifications/powerbi.png)
-
-## SQL
-![SQL](images/certifications/sql_joins.png)
+### SQL
+::: {.skill-card}
+![SQL Joins](images/certifications/sql_joins.png){width="80%" style="margin:0 auto 1rem auto;"}
+:::
 
 :::
 
@@ -30,9 +37,16 @@ Here are some selected certifications that represent a broad mix of my technical
 
 ## Full Kubicle Certificate List
 
-::: {.cert-grid}
+Below is the complete list of my Kubicle certificates:
 
-![Summary 1](images/certifications/kubicle_summary1.png)
-![Summary 2](images/certifications/kubicle_summary2.png)
+::: {.skill-grid style="grid-template-columns:1fr; gap:2rem;"}
+
+::: {.skill-card}
+![](images/certifications/kubicle_summary1.png){width="80%" style="margin:0 auto 1rem auto;"}
+:::
+
+::: {.skill-card}
+![](images/certifications/kubicle_summary2.png){width="80%" style="margin:0 auto 1rem auto;"}
+:::
 
 :::
