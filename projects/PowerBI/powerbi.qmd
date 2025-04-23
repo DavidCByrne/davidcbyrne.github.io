@@ -1,7 +1,5 @@
 ## Power BI Dashboards
 
-::: {.skill-grid}
-
 ::: {.skill-card}
 ![Car Sales Data: Key Insights](slides/slide1_powerbi.png){width="100%"}
 :::
@@ -20,6 +18,4 @@
 
 ::: {.skill-card}
 ![Colour Influence & Age Analysis](slides/slide5_powerbi.png){width="100%"}
-:::
-
 :::
