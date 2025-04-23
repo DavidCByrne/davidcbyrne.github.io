@@ -90,7 +90,7 @@ Analytics specialism, final-year Business Studies
 
 ::: {.skill-card}
 <img 
-  src="images/kkr_logo.jpg" 
+  src="images/kkr_logo.png" 
   alt="KKR & Co logo" 
   style="width: 100%; height:200px; object-fit:contain; margin-bottom:1rem;"
 />
