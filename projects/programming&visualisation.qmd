@@ -10,7 +10,7 @@ page-layout: full
 
 ::: columns
 ::: {.column width="65%"}
-We started the semester out by learning about SQL. Throughout this learning I deepened my understanding of relational databases and SQL syntax, constructing ERDs, defining tables with proper primary and foreign keys, and mastering CRUD operations. Writing queries to join tables, calculate aggregates, and apply normalisation principles helped to sharpen my ability to think logically about data relationships and efficiencies. We had an exam on this which I achieved 89% in, which not only validated my proficiency with the core SQL concepts but also boosted my confidence to tackle complex data challenges in the future.
+We started the semester out by learning about SQL. Throughout this learning I deepened my understanding of relational databases and SQL syntax, constructing ERDs, defining tables with proper primary and foreign keys, and mastering CRUD operations. Writing queries to join tables, calculate aggregates, and apply normalisation principles helped to sharpen my ability to think logically about data relationships and efficiencies. We had an exam on this where I achieved 89%, which not only validated my proficiency with the core SQL concepts but also boosted my confidence to tackle complex data challenges in the future.
 
 [► See SQL Exam Work](SQL/SQL_exam.qmd)
 :::
