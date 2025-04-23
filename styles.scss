@@ -42,7 +42,7 @@ $code-block-bg: $soft-slate; // code block background
     background-color:  #2B3A67  !important;
     border-color:      #2B3A67  !important;
   }
-// Grid for skills about page
+// Skill card & icon
 .skill-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px,1fr));

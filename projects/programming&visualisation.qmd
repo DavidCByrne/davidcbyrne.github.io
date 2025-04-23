@@ -21,7 +21,9 @@ We started the semester out by learning about SQL. Throughout this learning I de
 :::
 
 # Power BI
-Building on from our work on SQL, I then delved into learning Power BI.
+Building on from our work on SQL, I then delved into learning Power BI. For this, we had a group presentation of dashboards we created. We picked a [dataset](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data) on USA car sales from 2014/15 covering vehicles registered between 1982 and 2015. We leveraged our skills learnt from SQL to drop unnecessary columns, standardise the text, and remove any rows with >2 null values and unrealistic values. We also added in a new column so we could create more meaningful visualisations. We then created Power BI dashboards comrprising key information that the companies can use, which we presented and provided recommendations based on the data.
+
+[► See our Power BI Dashboards](SQL/SQL_exam.qmd){.btn .btn-primary}
 
 
 # Python
