@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
 
-
 // The below code is adapted from Lecture 8 - https://damien-dupre.github.io/BAA1028/lectures/lecture_8#/import-fonts
 // Colors
 $dark-navy:   #2B3A67;
@@ -30,6 +29,19 @@ $code-block-bg: $soft-slate; // code block background
 
 /*-- scss:rules --*/
 
+// Change primary button colours
+:root {
+    --bs-primary: #2B3A67;
+  }
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-image: none !important;
+    background-color:  #2B3A67  !important;
+    border-color:      #2B3A67  !important;
+  }
 // Grid for skills about page
 .skill-grid {
     display: grid;
