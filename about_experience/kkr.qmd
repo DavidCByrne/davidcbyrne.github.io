@@ -22,3 +22,6 @@ format: html
 
 ## My KKR Experience
 <img src="experience_images/kkr_experience.jpg" alt="KKR" class="float-right"/>
+
+KKR & Co Inc. is a leading global investment firm, managing private equity, credit, and real estate assets across multiple sectors. During my 14-month internship on the Asset, Liabilities, and Portfolio Services (ALPS) team, I supported the lifecycle management of multi-billion-dollar portfolios, tracking assets from purchase through payoff. reconciling daily cash flows, and ensue accurate asset positions for trading purposes. I also colloborated with cross-functional teams to streamline reporting processes, had oversight of the offshore team. and developed a comprehensive training plan forten new interns.
+
