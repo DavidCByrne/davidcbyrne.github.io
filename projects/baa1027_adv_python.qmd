@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning & Advanced Python"
-subtitle: "BAA1019"
+subtitle: "BAA1027"
 #Photo from NIT Academy https://academy.nit-institute.com/course advanced-python-programming/
 image: "/projects/images/python.jpg"
 page-layout: full
