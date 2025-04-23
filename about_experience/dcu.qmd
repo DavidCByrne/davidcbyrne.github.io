@@ -9,12 +9,20 @@ format: html
     width: 300px;
     margin: 0 1rem 1rem 0;
     object-fit: cover;
+
+    border: 2px solid #2B3A67;
+    border-radius: .5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
   .float-right {
     float: right;
     width: 500px;
     margin: 0 0 1rem 1rem;
     object-fit: cover;
+
+    border: 2px solid #2B3A67;
+    border-radius: .5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
   .clearfix::after {
     content: "";
