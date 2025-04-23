@@ -22,3 +22,5 @@ format: html
     clear: both;
   }
 </style>
+
+<img src="experience_images/dcu_experience.jpeg" alt="DCU Campus" class="float-left"/>
