@@ -96,7 +96,7 @@ Analytics specialism, final-year Business Studies
 />
 
 ### KKR & Co Internship  
-Year-long internship in a leading Private Equity firm, where I worked in Investment Operations
+Year-long internship in a leading Private Equity firm
 
 [→ Read more about KKR Internship](about_experience/kkr.qmd){.btn .btn-primary}
 :::
