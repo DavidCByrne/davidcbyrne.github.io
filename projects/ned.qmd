@@ -17,11 +17,19 @@ Our product, Revive Grounds, is a sustainable skin scrub made using repurposed c
 
 ## Marketing Video
 
+::: columns
+::: {.column width="50%"}
 <iframe
-  width="560" height="315"
+  width="95%" height="315"
   src="https://www.youtube.com/embed/FSC_wcsHxuY?si=DCndLkZiLqfelfnS"
   title="YouTube video player" frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen>
 </iframe>
+:::
+
+::: {.column width="35%"}
+For assignment 3 we had to develop a marketing video for our product. This took significant preperation as we had to get professional camera equipment as well as organise with a coffee shop, The Lab
+:::
+:::
 
