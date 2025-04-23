@@ -19,7 +19,8 @@ format:
 ### Check out some of my work
 [► My projects can be seen here](projects.qmd)
 
----
+<hr class="section-break"/>
+
 ## Core Skills
 
 ::: skill-grid
