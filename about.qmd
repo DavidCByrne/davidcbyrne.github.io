@@ -36,7 +36,7 @@ format:
 ### Python  
 Experienced in Python for ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.
 
-[→ View Python Projects](projects/baa1027_adv_python.qmd){.btn .btn-primary}
+[→ View Python Projects](projects/baa1027_adv_python.qmd){.btn .btn-primary style=}
 :::
 
 ::: {.skill-card}
@@ -67,3 +67,4 @@ Skilled in Power BI, built an interactive US car sales dashboard with DAX metric
 
 :::
 
+<hr class="section-break"/>

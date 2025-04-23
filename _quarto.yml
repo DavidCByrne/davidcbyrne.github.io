@@ -27,7 +27,7 @@ website:
 
 format:
   html:
-    theme: [simplex, styles.scss]  
+    theme: [simplex, styles.scss]
     fontawesome: true   
     mainfont: Montserrat
     toc: false
