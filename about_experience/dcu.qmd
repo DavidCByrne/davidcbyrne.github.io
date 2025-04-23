@@ -29,7 +29,7 @@ My time at DCU has been defined by growth, both intellectually and personally. F
 
 In my final year, I decided to serve as a Peer Mentor, helping to guide new students through deadlines, study techniques, and navigation around campus. This has been extremely rewarding, and seeing the student's confidence grow throughout the year has been a real bonus.
 
-Looking back, it's the moments of uncertainty, late-night study sessions, navigating group projects, and balancing academics with a new independence, that taught me the most. Wether troubleshooting a stubborn dataset, pitching a business idea to investors, or simply finding my way around Dublin, I learned to trust my instincst and seek support when I needed it.
+Looking back, it's the moments of uncertainty, late-night study sessions, navigating group projects, and balancing academics with a new independence, that taught me the most. Whether troubleshooting a stubborn dataset, pitching a business idea to investors, or simply finding my way around Dublin, I learned to trust my instincst and seek support when I needed it.
 
 
 
@@ -39,4 +39,6 @@ Looking back, it's the moments of uncertainty, late-night study sessions, naviga
 
 <img src="experience_images/sgfecc.jpeg" alt="SG-FECC" class="float-right"/>
 
-In January 2025, I was lucky enough to be one of four students selected from the DCU Business School to reperesent the university at the Schlesinger Global Family Enterprise Case Competition in Burlington, Vermont, USA. 
+In January 2025, I was lucky enough to be one of four students selected from the DCU Business School to reperesent the university at the Schlesinger Global Family Enterprise Case Competition in Burlington, Vermont, USA. This experience was definitely the biggest highlight of my time at university. We spent a week dissecting our pre-arrival case, then faced three days of closed cases, each limited to just four hours of offline analysis. In that tight window, we identified the problems, developed 3 recommendations as well as alternative recommendations, mapped out implementation timelines, and created presentation slides. We then presented for 20 minutes to a talented panel of judges, from private equity managers to retired amazon executives, where they then quizzed us for a ten-minute Q&A session. There was intense time pressure as we had barely any time to rehearse our pitches before presenting, but our preperation and trust in one another paid off as we topped our division every single day, earning a perfect score of 16/16 points. Competing against universities from the US, Canada, Mexico, and Germany, I saw my presentation skills sharpen, my ability to remain composed under extreme time constraints deepen, and my confidence in group collaboration soar.
+
+Outside of competition hours, exploring Burlington's snowy streets reminded me that growth often happens outside our comfort zones, and that the the friendships and professional lessons gained are among my most treasured takeaways from DCU.
