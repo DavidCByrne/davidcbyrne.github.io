@@ -40,5 +40,8 @@
   },
   "about_experience/kkr.qmd": {
     "kkr.html": "7cf43f32"
+  },
+  "projects/PowerBI/powerbi.qmd": {
+    "powerbi.html": "7dcaa1fb"
   }
 }
