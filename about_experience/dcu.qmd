@@ -6,13 +6,13 @@ format: html
 <style>
   .float-left {
     float: left;
-    width: 30%;
+    width: 300px;
     margin: 0 1rem 1rem 0;
     object-fit: cover;
   }
   .float-right {
     float: right;
-    width: 30%;
+    width: 300px%;
     margin: 0 0 1rem 1rem;
     object-fit: cover;
   }
@@ -26,3 +26,17 @@ format: html
 <img src="experience_images/dcu_experience.jpeg" alt="DCU Campus" class="float-left"/>
 
 My time at DCU has been defined by growth, both intellectually and personally. From the moment I arrived as a first-year Business Studies student, I immersed myself in the coursework, celebrating each high-scoring exam, and learning how to approach problems with curiosity and precision. While moving away from home to live up in college was difficult, it has really defined who I am as a person. It taught me adaptability, resilience, and gave me confidence to embrace new challenges. I picked this course as I wasn't sure what I wanted to do in life, hence, I left my options open by picking a broad course. I learnt a wide skillset across analytics, finance, marketing, and management, where I then realised that my true interest lies in data analytics and finance. Throughout my degree, I have consistently achieved first class honours results in each year of my studies, ranking 2nd in a course of over 200 students in the process!
+
+In my final year, I decided to serve as a Peer Mentor, helping to guide new students through deadlines, study techniques, and navigation around campus. This has been extremely rewarding, and seeing the student's confidence grow throughout the year has been a real bonus.
+
+Looking back, it's the moments of uncertainty, late-night study sessions, navigating group projects, and balancing academics with a new independence, that taught me the most. Wether troubleshooting a stubborn dataset, pitching a business idea to investors, or simply finding my way around Dublin, I learned to trust my instincst and seek support when I needed it.
+
+
+
+
+ 
+## Representing the University in the US
+
+<img src="experience_images/sgfecc.jpeg" alt="SG-FECC" class="float-right"/>
+
+In January 2025, I was lucky enough to be one of four students selected from the DCU Business School to reperesent the university at the Schlesinger Global Family Enterprise Case Competition in Burlington, Vermont, USA. 
