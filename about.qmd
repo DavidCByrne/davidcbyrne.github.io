@@ -36,7 +36,7 @@ format:
 :::
 
 ### Python  
-Experienced in Python for ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation.
+Experienced in Python for ML workflows: data cleaning, exploratory analysis, model development, tuning, evaluation
 
 [→ View Python Projects](projects/baa1027_adv_python.qmd){.btn .btn-primary style=}
 :::
@@ -49,7 +49,7 @@ Experienced in Python for ML workflows: data cleaning, exploratory analysis, mod
 :::
 
 ### SQL  
-Proficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility.
+Proficient in SQL for database querying, data manipulation, and management, ensuring data integrity and accessibility
 
 [→ View SQL Work](projects/programming&visualisation.qmd){.btn .btn-primary}
 :::
@@ -62,7 +62,7 @@ Proficient in SQL for database querying, data manipulation, and management, ensu
 :::
 
 ### Power BI  
-Skilled in Power BI, built an interactive US car sales dashboard with DAX metrics, filters, and visualisations.
+Skilled in Power BI, built an interactive US car sales dashboard with DAX metrics, filters, and visualisations
 
 [→ View Dashboards](projects/programming&visualisation.qmd){.btn .btn-primary}
 :::
