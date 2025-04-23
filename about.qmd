@@ -71,6 +71,37 @@ Skilled in Power BI, built an interactive US car sales dashboard with DAX metric
 
 <hr class="section-break"/>
 
+## My Experience
+
+::: {.skill-grid}
+
+::: {.skill-card}
+<img 
+  src="images/dcu_logo.png" 
+  alt="DCU logo" 
+  style="width: 100%; height:200px; object-fit:contain; margin-bottom:1rem;"
+/>
+
+### Dublin City University  
+Analytics specialism, final-year Business Studies
+
+[→ Read more about DCU Experience](experience/dcu.qmd){.btn .btn-primary}
+:::
+
+::: {.skill-card}
+<img 
+  src="images/kkr_logo.jpg" 
+  alt="KKR & Co logo" 
+  style="width: 100%; height:200px; object-fit:contain; margin-bottom:1rem;"
+/>
+
+### KKR & Co Internship  
+Year-long internship in a leading Private Equity firm, where I worked in Investment Operations
+
+[→ Read more about KKR Internship](experience/kkr.qmd){.btn .btn-primary}
+:::
+
+:::
 
 
 <hr class="section-break"/>
