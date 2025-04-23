@@ -50,7 +50,9 @@ style="max-width:100%;height:auto;" />
 ::: {.column width="65%"}
 
 
-Finally, for the last 5 weeks of the semester, we explored the basics of Python.
+Finally, for the last 5 weeks of the semester, we explored the basics of Python. I learned to use NumPy for efficient array operations, pandas for data cleaning and transformation, and matplotlib for creating informative visualisations. Mastering these libraries gave me practical experience with core Python data structures and plotting techniques. We had an exam on this which I achieved 75% in. Having this solid foundation made delving into more advanced Python topics in semester two much smoother, as I could focus on new concepts rather than basic syntax and data handling.
+
+[► See my Semester 2 Work](baa1027_adv_python.qmd){.btn .btn-primary}
 
 :::
 
