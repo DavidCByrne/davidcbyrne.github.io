@@ -3,9 +3,9 @@ format: html
 ---
 
 <style>
-  .float-left {
-    float: left;
-    width: 300px;
+  .float-right {
+    float: right;
+    width: 400px;
     margin: 0 1rem 1rem 0;
     object-fit: cover;
 
@@ -19,3 +19,6 @@ format: html
     clear: both;
   }
 </style>
+
+## My KKR Experience
+<img src="experience_images/kkr_experience.jpg" alt="KKR" class="float-right"/>
