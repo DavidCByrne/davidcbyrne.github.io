@@ -108,3 +108,13 @@ img[src*="favicon.png"] {
     }
   }
 
+// Update link colour 
+  .projects-link {
+    color: $teal !important;       
+    font-weight: 600;              
+    text-decoration: none;         
+  }
+  .projects-link:hover {
+    text-decoration: underline;    
+  }
+

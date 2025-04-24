@@ -18,7 +18,7 @@ format:
 [Review my CV](cv.pdf){.btn .btn-primary}
 
 ### Check out some of my work
-[► My projects can be seen here](projects.qmd)
+[► My projects can be seen here](projects.qmd){.projects-link}
 
 <hr class="section-break"/>
 
