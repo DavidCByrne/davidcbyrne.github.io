@@ -8,20 +8,12 @@ format: html
     width: 300px;
     margin: 0 1rem 1rem 0;
     object-fit: cover;
-
-    border: 2px solid #2B3A67;
-    border-radius: .5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
   .float-right {
     float: right;
     width: 400px;
     margin: 0 1rem 1rem 0;
     object-fit: cover;
-
-    border: 2px solid #2B3A67;
-    border-radius: .5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   }
   .clearfix::after {
     content: "";
@@ -31,7 +23,7 @@ format: html
 </style>
 
 ## My KKR Experience
-<img src="experience_images/kkr_out.jpg" alt="KKR" class="float-right"/>
+<img src="experience_images/kkr_out.jpg" alt="KKR" class="float-right bordered-image"/>
 
 KKR & Co Inc. is a leading global investment firm, managing private equity, credit, and real estate assets across multiple sectors. During my 14-month internship on the Asset, Liabilities, and Portfolio Services (ALPS) team, I supported the lifecycle management of multi-billion-dollar portfolios, tracking assets from purchase through payoff. reconciling daily cash flows, and ensure accurate asset positions for trading purposes. I also collaborated with cross-functional teams to streamline reporting processes, had oversight of the offshore team. and developed a comprehensive training plan for ten new interns.
 
@@ -39,7 +31,7 @@ This role gave me extensive insight into the finance industry, sharpening my ana
 
 The internship solidified my passion with financial markets. Watching credit portfolios evolve from acquisition through to payoff, and understanding how daily cash reconciliations feed into pricing and risk decisions, revealed that finance is as much about rigorous analysis as it is about real-world impact. This has inspired me to pursue the CFA qualification post-graduation, deepening my expertise in equity valuation, fixed-income analysis, and portfolio management. My long-term aspiration is to transition into a front-office role, partnerning directly with clients on asset allocation strategies, contributing to deal execution, and shaping investment solutions that balance risk and return.
 
-<img src="experience_images/kkr_experience.jpg" alt="KKR" class="float-left"/>
+<img src="experience_images/kkr_experience.jpg" alt="KKR" class="float-left bordered-image"/>
 
 Outside the office, playing 7-a-side football with colleagues each Monday in Irish Town was a real highlight. It helped to build camaraderie and reminded me that high performance demands both professional focus and personal balance. I still continue to play each Monday with the team, which helps to give me a release from all the college work! Unfortunately, we got demoted to divison two during my internship, however, we have since gotten promoted back to division one with a much stronger squad. I'm hoping we continue this good run of form now!
 
