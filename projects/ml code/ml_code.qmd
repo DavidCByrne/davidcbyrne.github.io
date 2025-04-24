@@ -8,6 +8,8 @@ execute:
     enbabled: true
 ---
 
+## Import Libraries
+
 ```{python}
 # ---------------------------------------
 # 0. Import Libraries
@@ -26,6 +28,8 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_auc_sco
 from tabulate import tabulate 
 ```
 
+## 1. Load Dataset
+
 ```{python}
 # ---------------------------------------
 # 1. Load Dataset
@@ -33,6 +37,9 @@ from tabulate import tabulate
 file = '/Users/davidbyrne/Documents/ML Research Paper/creditcard.csv'
 data = pd.read_csv(file)
 ```
+
+## 2. Exploratory Data Analysis
+
 ```{python}
 # ---------------------------------------
 # 2. Exploratory Data Analysis (EDA)
@@ -106,6 +113,8 @@ sns.boxplot(x='Class', y='Amount', data=data)
 plt.title("Transaction Amount by Class (0 = Genuine, 1 = Fraud)")
 plt.show()
 ```
+
+## 3. Data Preprocessing
 
 ```{python}
 # ---------------------------------------
