@@ -131,3 +131,41 @@ Year-long internship in a leading Private Equity firm
 :::
 
 :::
+
+<hr class="section-break"/>
+
+## Hobbies & Interests
+
+::: {.skill-grid}
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa "futbol" >}}
+:::
+
+### Football  
+Enjoy to play 7-a-side each Monday
+
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa "dumbbell" >}}
+:::
+
+### Gym  
+Regular strength and cardio workouts to stay fit and focused
+
+:::
+
+::: {.skill-card}
+::: {.skill-icon}
+{{< fa "hiking" >}}
+:::
+
+### Hiking  
+Exploring local trails and national parks on day-long adventures
+
+:::
+
+::
