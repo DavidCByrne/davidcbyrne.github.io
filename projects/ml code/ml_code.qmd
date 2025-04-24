@@ -192,6 +192,8 @@ print("Fraud cases:", y_train_sm.sum())
 print("Genuine cases:", len(y_train_sm) - y_train_sm.sum())
 ```
 
+## 4. Model Training & Evaluation
+
 ```{python}
 # ---------------------------------------
 # 4. Model Training & Evaluation
@@ -301,6 +303,8 @@ y_proba_rf = best_rf.predict_proba(X_test)[:, 1]
 #Evaluate Random Forest Performance 
 evaluate_model('Random Forest', y_test, y_pred_rf, y_proba_rf)
 ```
+
+## 5. Results Comparison
 
 ```{python}
 # ---------------------------------------
@@ -431,6 +435,8 @@ plt.suptitle("Precision-Recall Curve Comparison Across All Models", fontsize=16)
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 plt.show()
 ```
+
+## 6. Acknowledgements
 
 ```{python}
 # ---------------------------------------
