@@ -14,5 +14,6 @@ For this year long module, we partook in a group project which accounted for 50%
 
 
 # Individual Case Study
+For the individual Hitachi case study, we were tasked with analysing the company’s strategic challenges and offering a tailored recommendation to address one of them. This involved a deep dive into Hitachi’s complex business portfolio and the macroeconomic forces affecting its direction, where I recommended a strategy to better balance long-term innovation with short-term shareholder pressure. In the second part of the assignment, we critically evaluated Hitachi’s organisational culture and its role in the firm’s pursuit of global expansion, applying frameworks like Schein’s cultural model and the CAGE distance framework. This section pushed me to think more about how deeply rooted national and organisational values can either enable or constrain international success. Overall, this assignment enhanced both my strategic thinking and cultural awareness. I developed a stronger ability to link abstract theory to real-world business issues and realised how essential it is to consider cultural compatibility alongside economic logic when advising global firms.
 
 <iframe width="100%" height="1000" src=pdfs/strat_case.pdf> </iframe>
