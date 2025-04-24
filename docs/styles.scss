@@ -92,3 +92,18 @@ $code-block-bg: $soft-slate; // code block background
     width: 100%;                     
     height: auto;
   }
+
+// Add fade in effect
+img[src*="favicon.png"] {
+    opacity:      0;
+    transform:    scale(0.8);
+    animation:    fade-in-scale 0.6s ease-out forwards;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes fade-in-scale {
+    to {
+      opacity:   1;
+      transform: scale(1);
+    }
+  }
