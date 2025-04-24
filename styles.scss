@@ -107,3 +107,21 @@ img[src*="favicon.png"] {
       transform: scale(1);
     }
   }
+
+// About page hero edits
+   .columns {
+    align-items: center;    
+  }
+  .columns .column {
+    line-height: 1.6;
+    font-size: 1.05rem;
+  }
+  @media (max-width: 768px) {
+    .columns {
+      display: block;
+      text-align: center;
+    }
+    .columns .column {
+      width: 100% !important;
+    }
+  }

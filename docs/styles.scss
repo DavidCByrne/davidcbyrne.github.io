@@ -93,17 +93,35 @@ $code-block-bg: $soft-slate; // code block background
     height: auto;
   }
 
-// Add fade in effect
+// Add fade in effect for landing page image (inspiration from https://www.garrickadenbuie.com/)
 img[src*="favicon.png"] {
     opacity:      0;
     transform:    scale(0.8);
-    animation:    fade-in-scale 0.6s ease-out forwards;
-    animation-delay: 0.3s;
+    animation:    fade-in-scale 0.9s ease-out forwards;
+    animation-delay: 0.5s;
   }
   
   @keyframes fade-in-scale {
     to {
       opacity:   1;
       transform: scale(1);
+    }
+  }
+
+// About page hero edits
+   .columns {
+    align-items: center;    
+  }
+  .columns .column {
+    line-height: 1.6;
+    font-size: 1.05rem;
+  }
+  @media (max-width: 768px) {
+    .columns {
+      display: block;
+      text-align: center;
+    }
+    .columns .column {
+      width: 100% !important;
     }
   }
