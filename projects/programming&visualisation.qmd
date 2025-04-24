@@ -5,14 +5,6 @@ subtitle: "BAA1026"
 image: "/projects/images/programming.png"
 page-layout: full
 ---
- 
-<style>
-  .img-bordered {
-    border: 2px solid #2B3A67;
-    border-radius: .5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-</style>
 
 # SQL
 
@@ -24,9 +16,10 @@ We started the semester out by learning about SQL. Throughout this learning I de
 :::
 
 ::: {.column width="35%" .text-center}
-<img src="/projects/images/sql_icon.jpg" alt="SQL icon" 
-class="img-bordered"
-style="max-width:100%;height:auto;" />
+<img src="/projects/images/sql_icon.jpg"
+     alt="SQL icon"
+     class="bordered-image"
+     style="max-width:100%;height:auto;" />
 :::
 :::
 
@@ -40,7 +33,7 @@ Building on from our work on SQL, I then delved into learning Power BI. For this
 
 ::: {.column width="35%" .text-center}
 <img src="/projects/images/powerbi.png" alt="SQL icon" 
-class="img-bordered"
+class="bordered-image"
 style="max-width:100%;height:auto;" />
 :::
 :::
@@ -58,7 +51,7 @@ Finally, for the last 5 weeks of the semester, we explored the basics of Python.
 
 ::: {.column width="35%" .text-center}
 <img src="/projects/images/python2.png" alt="SQL icon" 
-class="img-bordered"
+class="bordered-image"
 style="max-width:100%;height:auto;" />
 :::
 :::
