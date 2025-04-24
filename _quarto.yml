@@ -26,8 +26,8 @@ website:
         href: https://www.linkedin.com/in/davidbyrnedcu
   page-footer:
     border: false
-    left: >-
-       © 2025 David Byrne
+    left: "© 2025 David Byrne"
+    
     
 
 format:
