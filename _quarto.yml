@@ -25,14 +25,6 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/davidbyrnedcu
 
-  sidebar:                     
-    - title: "Projects"
-      contents:
-        - projects/business_strat.qmd
-        - projects/baa1027_adv_python.qmd    
-        - projects/ned.qmd                   
-        - projects/programming&visualisation.qmd
-
 format:
   html:
     theme: [simplex, styles.scss]
