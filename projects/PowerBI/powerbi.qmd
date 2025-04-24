@@ -1,21 +1,21 @@
 # Power BI Dashboards
 ---
 ::: {.skill-card}
-![Car Sales Data: Key Insights](slides/slide1_powerbi.png){width="100%"}
+![](slides/slide1_powerbi.png){width="100%"}
 :::
 
 ::: {.skill-card}
-![State Impact](slides/slide2_powerbi.png){width="100%"}
+![](slides/slide2_powerbi.png){width="100%"}
 :::
 
 ::: {.skill-card}
-![Price Discrepancy Overview](slides/slide3_powerbi.png){width="100%"}
+![](slides/slide3_powerbi.png){width="100%"}
 :::
 
 ::: {.skill-card}
-![Transmission & Body Type Impact](slides/slide4_powerbi.png){width="100%"}
+![](slides/slide4_powerbi.png){width="100%"}
 :::
 
 ::: {.skill-card}
-![Colour Influence & Age Analysis](slides/slide5_powerbi.png){width="100%"}
+![](slides/slide5_powerbi.png){width="100%"}
 :::
