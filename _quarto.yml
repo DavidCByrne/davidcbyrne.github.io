@@ -24,6 +24,11 @@ website:
         href: cv.pdf
       - icon: linkedin
         href: https://www.linkedin.com/in/davidbyrnedcu
+  page-footer:
+    border: false
+    left: >-
+       © 2025 David Byrne
+    
 
 format:
   html:
