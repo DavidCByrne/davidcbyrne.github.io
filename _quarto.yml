@@ -6,7 +6,6 @@ website:
   title: "David Byrne"
   favicon: images/favicon.png
   navbar:
-    title: false
     logo: images/favicon.png
     search: false
     right:
