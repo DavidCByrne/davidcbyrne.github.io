@@ -7,34 +7,6 @@
     "text": "Over the past few years, I’ve actively engaged with a wide range of additional courses to build practical, industry-relevant skills in data analytics, AI, visualisation, and business software. These certifications represent more than just technical knowledge, they reflect my ongoing commitment to continuous learning and applying data-driven insights in real-world scenarios. From early foundations in Excel and Tableau to more advanced concepts in Python, SQL, and AI, each course has contributed to deepening my analytical thinking and problem-solving approach. Collectively, these certifications have given me a strong, well-rounded skill set that I’ve applied across academic projects, business cases, and technical implementations.\nHere are some selected certifications that represent a broad mix of my technical and analytical development:"
   },
   {
-    "objectID": "certifications.html#excel",
-    "href": "certifications.html#excel",
-    "title": "Certifications",
-    "section": "Excel",
-    "text": "Excel\n\n\n\nFinancial Modelling"
-  },
-  {
-    "objectID": "certifications.html#python",
-    "href": "certifications.html#python",
-    "title": "Certifications",
-    "section": "Python",
-    "text": "Python\n\n\n\nIntermediate Python"
-  },
-  {
-    "objectID": "certifications.html#power-bi",
-    "href": "certifications.html#power-bi",
-    "title": "Certifications",
-    "section": "Power BI",
-    "text": "Power BI\n\n\n\nPower BI Dashboards"
-  },
-  {
-    "objectID": "certifications.html#sql",
-    "href": "certifications.html#sql",
-    "title": "Certifications",
-    "section": "SQL",
-    "text": "SQL\n\n\n\nSQL"
-  },
-  {
     "objectID": "certifications.html#full-kubicle-certificate-list",
     "href": "certifications.html#full-kubicle-certificate-list",
     "title": "Certifications",
@@ -119,6 +91,20 @@
     "text": "Our product, Revive Grounds, is a sustainable skin scrub made using repurposed coffee grounds, and this module gave us the perfect framework to bring it to life. It has been one of the most engaging and practical experiences of my degree so far, offering a strong balance between theory and real-world application. From identifying a clear market opportunity to building investor-ready financials, the process challenged us to think creatively while remaining commercially focused. The Dragons’ Den pitch was a standout moment, helping us refine our communication and present with confidence to experienced professionals. I also gained a better appreciation for teamwork as we worked closely to develop our brand from the ground up. Overall, the module gave me a much deeper understanding of entrepreneurship and sustainability in business, and helped boost both my practical skills and personal confidence along the way."
   },
   {
+    "objectID": "projects/ned.html#marketing-video",
+    "href": "projects/ned.html#marketing-video",
+    "title": "New Enterprise Development",
+    "section": "Marketing Video",
+    "text": "Marketing Video\n\n\n\n\n\nWe had to develop a marketing video for our product. This took significant preperation as we had to get professional camera equipment as well as organise with a coffee shop, The Lab, based in Raheny, for us to shoot there. Tackling this assignment was a completely new experience as I had never held a camera or opened editing software before. From storyboarding our concept and setting up shots to learning cut-points, transitions, and sound mixing in editing software, I picked up a unique blend of technical and creative skills. Through late-night editing sessions and feedback loops with teammates, we refined our narrative until it shone, ultimately earning a solid 70%. Beyond the grade, this project gave me newfound confidence in multimedia production and creativity that I’ll carry into the future."
+  },
+  {
+    "objectID": "projects/ned.html#revive-grounds-business-plan",
+    "href": "projects/ned.html#revive-grounds-business-plan",
+    "title": "New Enterprise Development",
+    "section": "Revive Grounds Business Plan",
+    "text": "Revive Grounds Business Plan"
+  },
+  {
     "objectID": "projects/PowerBI/powerbi.html",
     "href": "projects/PowerBI/powerbi.html",
     "title": "Power BI Dashboards",
@@ -172,7 +158,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Business Strategy\n\n\n\n\n\n\n\n\n\n\n\n\n\nMachine Learning & Advanced Python\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Enterprise Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nProgramming & Visualisation\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -201,26 +187,5 @@
     "title": "David Byrne",
     "section": "Some Videos I’m Interested In",
     "text": "Some Videos I’m Interested In"
-  },
-  {
-    "objectID": "projects/ned.html#marketing-video",
-    "href": "projects/ned.html#marketing-video",
-    "title": "New Enterprise Development",
-    "section": "Marketing Video",
-    "text": "Marketing Video\n\n\n\n\n\nWe had to develop a marketing video for our product. This took significant preperation as we had to get professional camera equipment as well as organise with a coffee shop, The Lab, based in Raheny, for us to shoot there. Tackling this assignment was a completely new experience as I had never held a camera or opened editing software before. From storyboarding our concept and setting up shots to learning cut-points, transitions, and sound mixing in editing software, I picked up a unique blend of technical and creative skills. Through late-night editing sessions and feedback loops with teammates, we refined our narrative until it shone, ultimately earning a solid 70%. Beyond the grade, this project gave me newfound confidence in multimedia production and creativity that I’ll carry into the future."
-  },
-  {
-    "objectID": "projects/ned.html#dragons-den",
-    "href": "projects/ned.html#dragons-den",
-    "title": "New Enterprise Development",
-    "section": "Dragon’s Den",
-    "text": "Dragon’s Den"
-  },
-  {
-    "objectID": "projects/ned.html#revive-grounds-business-plan",
-    "href": "projects/ned.html#revive-grounds-business-plan",
-    "title": "New Enterprise Development",
-    "section": "Revive Grounds Business Plan",
-    "text": "Revive Grounds Business Plan"
   }
 ]
