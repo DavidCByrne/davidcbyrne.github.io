@@ -18,6 +18,7 @@ Our product, Revive Grounds, is a sustainable skin scrub made using repurposed c
   alt="Team photo"
   style="
     display: block;
+    margin-left: 2rem;  
     width: 80%;
     height: auto;
     border: 2px solid #2B3A67;
