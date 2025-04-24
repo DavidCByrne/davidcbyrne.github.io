@@ -16,15 +16,8 @@ In this module, we were challenged to create a completely novel product, one tha
 <img
   src="images/nedpic.jpeg"
   alt="Team photo"
-  style="
-    display: block;
-    margin-left: 2rem;  
-    width: 80%;
-    height: auto;
-    border: 2px solid #2B3A67;
-    border-radius: .5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  "
+  class="bordered-image"
+  style="margin-left:2rem; width:80%;"
 />
 :::
 :::
