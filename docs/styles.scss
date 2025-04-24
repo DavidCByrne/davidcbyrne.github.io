@@ -83,38 +83,6 @@ $code-block-bg: $soft-slate; // code block background
     color: $teal     !important;   
   }
 
-// 1) Turn the grid container into our skill-grid
-  .listing.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-  
-  // 2) Make each tile a skill-card
-  .listing.grid .listing-item {
-    background: white;
-    padding: 1.5rem;
-    border-radius: .5rem;
-    box-shadow: 0 2px 8px $teal;
-    text-align: center;
-    transition: transform .2s, box-shadow .2s;
-  }
-  
-  // 3) Hover effect (same as .skill-card:hover)
-  .listing.grid .listing-item:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 12px $teal;
-  }
-  
-  // 4) Ensure the image inside the card is full-width and nicely cropped
-  .listing.grid .listing-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: .5rem  .5rem 0 0;  // round top corners
-    object-fit: cover;
-  }
 // Add border images
 .bordered-image {
     border: 2px solid $dark-navy;    
