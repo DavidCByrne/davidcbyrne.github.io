@@ -9,5 +9,5 @@ page-layout: full
 # Code
 [► See Full ML Algorithm Code](ml code/ml_code.qmd){.btn .btn-primary}
 
-# Report
+# Reflective Report
 <iframe width="100%" height="1000" src=pdfs/adv_python.pdf> </iframe>
