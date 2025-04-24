@@ -5,6 +5,9 @@ subtitle: "BAA1027"
 image: "/projects/images/python.jpg"
 page-layout: full
 ---
+This module built directly on the foundations we established in Semester 1, taking my grasp of `NumPy`, `pandas`, and `matplotlib` into deeper territory where I was introduced to the the core theory and mathematics underpinning today's most powerful algorithms. Over the course of the module we tackled nearly 500 lecture slides' worth of material on topics such as linear regression, decision trees, support vector machines, and ensemble methods, then demonstrated our understanding through two tough exams, both of which I achieved 95% in. 
+
+On the practical side, we were tasked with coding a full machine learning solution, where I chose to implement a credit card fraud detection system on this [dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud), comparing four different classifiers, documenting the process and the results in the report below. Through this balance of theory and practical implementation, I've not only reinforced my ability to turn mathematical concepts into working code but also honed my skills in data preprocessing, model evaluation, and iterative improvement. 
 
 # Code
 [► See Full ML Algorithm Code](ml code/ml_code.qmd){.btn .btn-primary}
