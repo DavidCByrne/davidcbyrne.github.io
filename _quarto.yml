@@ -27,6 +27,7 @@ website:
   page-footer:
     border: false
     left: "© 2025 David Byrne"
+    right: "Built using [Quarto](https://quarto.org)"
     
     
 
