@@ -13,22 +13,22 @@ Here are some selected certifications that represent a broad mix of my technical
 ::: {.skill-grid style="grid-template-columns:1fr; gap:2rem;"}
 ### Excel
 ::: {.skill-card}
-![Financial Modelling](images/certifications/financial_modelling.png){width="80%" style="margin:0 auto 1rem auto;"}
+![](images/certifications/financial_modelling.png){width="80%" style="margin:0 auto 1rem auto;"}
 :::
 
 ### Python
 ::: {.skill-card}
-![Intermediate Python](images/certifications/datacamp_python.png){width="80%" style="margin:0 auto 1rem auto;"}
+![](images/certifications/datacamp_python.png){width="80%" style="margin:0 auto 1rem auto;"}
 :::
 
 ### Power BI
 ::: {.skill-card}
-![Power BI Dashboards](images/certifications/powerbi.png){width="80%" style="margin:0 auto 1rem auto;"}
+![](images/certifications/powerbi.png){width="80%" style="margin:0 auto 1rem auto;"}
 :::
 
 ### SQL
 ::: {.skill-card}
-![SQL Joins](images/certifications/sql_joins.png){width="80%" style="margin:0 auto 1rem auto;"}
+![](images/certifications/sql_joins.png){width="80%" style="margin:0 auto 1rem auto;"}
 :::
 
 :::
