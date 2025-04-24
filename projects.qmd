@@ -1,8 +1,4 @@
 ---
-title: "Projects"
-description: |
-  
-  Here are some of the projects I have worked on throughout my academic career.
 listing: 
   contents: projects/*
   type: grid
@@ -12,6 +8,9 @@ listing:
 page-layout: full
 title-block-banner: false
 ---
+# Projects
+
+Check out some of the projects I have worked on throughout my academic journey!
 
 ## Reflection on the ePortfolio
 
