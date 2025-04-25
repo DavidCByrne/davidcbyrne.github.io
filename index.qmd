@@ -37,7 +37,7 @@ I'm a final-year Business Studies student in DCU specialising in data analytics.
 
 ::: {.skill-card}
 ### [2021](about_experience/dcu.qmd){.projects-link}
-Began DCU BA in Business Studies
+Began Bachelor of Business Studies DCU
 :::
 
 ::: {.skill-card}
@@ -47,7 +47,7 @@ Completed year-long internship at KKR & Co
 
 ::: {.skill-card}
 ### [2025](projects.qmd){.projects-link}
-Graduating with First-Class Honours
+Graduating DCU with First-Class Honours
 :::
 
 :::
