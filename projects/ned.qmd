@@ -17,10 +17,9 @@ In this module, we were challenged to create a completely novel product, one tha
 
 ::: {.column width="35%"}
 <img
-  src="images/nedpic.jpeg"
-  alt="Team photo"
-  class="bordered-image"
-  style="margin-left:2rem; width:80%;"
+  src="images/revive_grounds.png"
+  alt="Product Photo"
+  style="margin-left:2rem; width:100%;"
 />
 :::
 :::
@@ -40,6 +39,23 @@ In this module, we were challenged to create a completely novel product, one tha
 
 ::: {.column width="50%"}
 We had to develop a marketing video for our product. This took significant preparation as we had to get professional camera equipment as well as organise with a coffee shop, [The Lab](https://g.co/kgs/CpJnbyB), based in Raheny, for us to shoot there. Tackling this assignment was a completely new experience as I had never held a camera or opened editing software before. From storyboarding our concept and setting up shots to learning cut-points, transitions, and sound mixing in editing software, I picked up a unique blend of technical and creative skills. Through late-night editing sessions and feedback loops with teammates, we refined our narrative until it shone, ultimately earning a solid 70%. Beyond the grade, this project gave me newfound confidence in multimedia production and creativity that I’ll carry into the future.
+:::
+:::
+
+## Dragon's Den Pitch
+
+::: columns
+::: {.column width="65%"}
+In this module, we were challenged to create a completely novel product, one that hadn't been brought to market before. Our product, Revive Grounds, is a sustainable skin scrub made using repurposed coffee grounds, and this module gave us the perfect framework to bring it to life. It has been one of the most engaging and practical experiences of my degree so far, offering a strong balance between theory and real-world application. From identifying a clear market opportunity to building investor-ready financials, the process challenged us to think creatively while remaining commercially focused. The Dragons’ Den pitch was a standout moment, helping us refine our communication and present with confidence to experienced professionals. I also gained a better appreciation for teamwork as we worked closely to develop our brand from the ground up. Overall, the module gave me a much deeper understanding of entrepreneurship and sustainability in business, and helped boost both my practical skills and personal confidence along the way.
+:::
+
+::: {.column width="35%"}
+<img
+  src="images/nedpic.jpeg"
+  alt="Team Photo"
+  class="bordered-image"
+  style="margin-left:2rem; width:80%;"
+/>
 :::
 :::
 
