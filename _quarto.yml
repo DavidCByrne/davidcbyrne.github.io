@@ -26,6 +26,13 @@ website:
   page-footer:
     border: false
     left: "© 2025 David Byrne"
+    center: 
+     - icon: github
+       href: https://github.com/davidcbyrne
+     - icon: linkedin
+       href: https://www.linkedin.com/in/davidbyrnedcu
+     - icon: envelope
+       href: mailto:david.byrne227@mail.dcu.ie
     right: >-
       Built using
       <a href="https://quarto.org"
@@ -36,7 +43,6 @@ website:
             alt="Quarto"
             style="height:1em; width:auto; vertical-align:middle;" />
       </a>
-    
     
 
 format:
