@@ -123,9 +123,13 @@ img[src*="favicon.png"] {
   }
 
 // Add back button
-  .back-button {
-    position: fixed;
-    top: 4.5rem;
-    left: 1rem;
-    z-index: 999;        
+.back-button {
+    display: inline-block;      
+    margin-bottom: 0.5rem;      
+    color: $teal !important;    
+    font-weight: 600;           
+    text-decoration: none;
+  }
+  .back-button:hover {
+    text-decoration: underline;
   }

@@ -5,9 +5,8 @@ subtitle: "BAA1027"
 image: "/projects/images/python.jpg"
 page-layout: full
 ---
-::: {.back-button}
-[← Back to Projects](/projects.qmd){.back-button}
-:::
+
+<a href="/projects.qmd" class="back-button">← Back to Projects</a>
 
 This module built directly on the foundations we established in [Semester 1](programming&visualisation.qmd){.projects-link}, taking my grasp of `NumPy`, `pandas`, and `matplotlib` into deeper territory where I was introduced to the core theory and mathematics underpinning today's most powerful algorithms. Over the course of the module we tackled nearly 500 lecture slides' worth of material on topics such as linear regression, decision trees, support vector machines, and ensemble methods, then demonstrated our understanding through two tough exams, both of which I achieved 95% in. 
 
