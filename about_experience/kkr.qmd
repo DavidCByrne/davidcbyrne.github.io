@@ -22,6 +22,8 @@ format: html
   }
 </style>
 
+<a href="/about.qmd" class="back-button">← Back to About Page</a>
+
 ## My KKR Experience
 <img src="experience_images/kkr_out.jpg" alt="KKR" class="float-right bordered-image"/>
 
