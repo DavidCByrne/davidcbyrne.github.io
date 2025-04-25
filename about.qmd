@@ -142,7 +142,7 @@ Year-long internship in a leading Private Equity firm
 {{< fa "futbol" >}}
 :::
 ### Football  
-Enjoy to play 7-a-side each Monday and 5-aside each Wednesday
+Enjoy to play 7-a-side each Monday and 5-a-side each Wednesday
 :::
 
 ::: {.skill-card}
