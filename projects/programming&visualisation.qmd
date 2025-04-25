@@ -10,7 +10,7 @@ page-layout: full
 
 ::: columns
 ::: {.column width="65%"}
-We started the semester out by learning about SQL. Throughout this learning I deepened my understanding of relational databases and SQL syntax, constructing ERDs, defining tables with proper primary and foreign keys, and mastering CRUD operations. Writing queries to join tables, calculate aggregates, and apply normalisation principles helped to sharpen my ability to think logically about data relationships and efficiencies. We had an exam on this where I achieved 89%, which not only validated my proficiency with the core SQL concepts but also boosted my confidence to tackle complex data challenges in the future.
+We started the semester out by learning about SQL. Throughout this learning I deepened my understanding of relational databases and SQL syntax, constructing ERDs, defining tables with proper primary and foreign keys, and mastering CRUD operations. Writing queries to join tables, calculate aggregates, and apply normalisation principles helped to sharpen my ability to think logically about data relationships and efficiencies. We had an exam on this, where I achieved 89%, which not only validated my proficiency with the core SQL concepts but also boosted my confidence to tackle complex data challenges in the future.
 
 [► See SQL Exam Work](SQL/SQL_exam.qmd){.btn .btn-primary}
 :::
@@ -26,7 +26,7 @@ We started the semester out by learning about SQL. Throughout this learning I de
 # Power BI
 ::: columns
 ::: {.column width="65%"}
-Building on from our work on SQL, I then delved into learning Power BI. For this, we had a group presentation of dashboards we created. We picked a [dataset](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data){.projects-link} on USA car sales from 2014/15 covering vehicles registered between 1982 and 2015. We leveraged our skills learnt from SQL to drop unnecessary columns, standardise the text, and remove any rows with >2 null values. We also added in a new column so we could create more meaningful visualisations. We then created Power BI dashboards comprising key information that the companies can use, which we presented and provided recommendations based on the data. Our score for the presentation was 70%, which I think really reflected the work that was put in. Power BI’s intuitive drag-and-drop interface and seamless integration with SQL make it an invaluable tool for transforming raw data into actionable insights. I’m confident that its ability to build dynamic dashboards and automate reporting will play a central role throughout my career in data analytics and finance.
+Building on from our work on SQL, I then delved into learning Power BI. For this, we had a group presentation of dashboards we created. We picked a [dataset](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data){.projects-link} on USA car sales from 2014/15 covering vehicles registered between 1982 and 2015. We leveraged our skills learnt from SQL to drop unnecessary columns, standardise the text, and remove any rows with >2 null values. We also added a new column so we could create more meaningful visualisations. We then created Power BI dashboards comprising key information that the companies can use, which we presented and provided recommendations based on the data. Our score for the presentation was 70%, which I think really reflected the work that was put in. Power BI’s intuitive drag-and-drop interface and seamless integration with SQL make it an invaluable tool for transforming raw data into actionable insights. I’m confident that its ability to build dynamic dashboards and automate reporting will play a central role throughout my career in data analytics and finance.
 
 [► See our Power BI Dashboards](PowerBI/powerbi.qmd){.btn .btn-primary}
 :::
@@ -43,7 +43,7 @@ style="max-width:100%;height:auto;" />
 ::: {.column width="65%"}
 
 
-Finally, for the last 5 weeks of the semester, we explored the basics of Python. I learned to use `NumPy` for efficient array operations, `pandas` for data cleaning and transformation, and `matplotlib` for creating informative visualisations. Mastering these libraries gave me practical experience with core Python data structures and plotting techniques. We had an exam on this which I achieved 75% in. Having this solid foundation made delving into more advanced Python topics in semester two much smoother, as I could focus on new concepts rather than basic syntax and data handling.
+Finally, for the last 5 weeks of the semester, we explored the basics of Python. I learned to use `NumPy` for efficient array operations, `pandas` for data cleaning and transformation, and `matplotlib` for creating informative visualisations. Mastering these libraries gave me practical experience with core Python data structures and plotting techniques. We had an exam on this, in which I achieved 75% in. Having this solid foundation made delving into more advanced Python topics in semester two much smoother, as I could focus on new concepts rather than basic syntax and data handling.
 
 [► See my Semester 2 Work](baa1027_adv_python.qmd){.btn .btn-primary}
 
