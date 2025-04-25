@@ -37,7 +37,7 @@ I'm a final-year Business Studies student in DCU specialising in data analytics.
 
 ::: {.skill-card}
 ### [2021](about_experience/dcu.qmd){.projects-link}
-Began DCU BSc in Business Studies
+Began DCU BA in Business Studies
 :::
 
 ::: {.skill-card}
