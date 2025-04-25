@@ -5,6 +5,8 @@ image: "/projects/images/ned.png"
 page-layout: full
 ---
 
+<a href="/projects.qmd" class="back-button">← Back to Projects</a>
+
 ## My Experience
 
 ::: columns
