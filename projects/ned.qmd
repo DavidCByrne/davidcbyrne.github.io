@@ -1,7 +1,8 @@
 ---
 title: "New Enterprise Development"
 subtitle: "BAA1003"
-image: "/projects/images/revive_grounds.png"
+#Photo from Adobe Stock - https://stock.adobe.com/ie/search?k=startup
+image: "/projects/images/ned_cover.jpg"
 page-layout: full
 ---
 
