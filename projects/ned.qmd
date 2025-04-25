@@ -1,7 +1,7 @@
 ---
 title: "New Enterprise Development"
 subtitle: "BAA1003"
-image: "/projects/images/ned.png"
+image: "/projects/images/revive_grounds.png"
 page-layout: full
 ---
 
