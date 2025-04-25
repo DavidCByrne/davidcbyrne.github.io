@@ -121,3 +121,11 @@ img[src*="favicon.png"] {
   h1, h2, h3, h4, h5, h6 {
     color: $dark-navy !important;
   }
+
+// Add back button
+  .back-button {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 999;        
+  }
