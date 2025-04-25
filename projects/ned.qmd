@@ -19,7 +19,7 @@ In this module, we were challenged to create a completely novel product, one tha
 <img
   src="images/revive_grounds.png"
   alt="Product Photo"
-  style="margin-left:2rem; width:100%;"
+  style="margin-left:2rem; width:95%;"
 />
 :::
 :::
